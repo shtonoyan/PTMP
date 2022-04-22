@@ -19,7 +19,7 @@
       </CookieManager>
       <hashTree/>
       <CacheManager guiclass="CacheManagerGui" testclass="CacheManager" testname="HTTP Cache Manager" enabled="true">
-        <boolProp name="clearEachIteration">false</boolProp>
+        <boolProp name="clearEachIteration">true</boolProp>
         <boolProp name="useExpires">true</boolProp>
         <boolProp name="CacheManager.controlledByThread">false</boolProp>
       </CacheManager>
@@ -28,7 +28,7 @@
         <collectionProp name="Arguments.arguments">
           <elementProp name="DOMAIN" elementType="Argument">
             <stringProp name="Argument.name">DOMAIN</stringProp>
-            <stringProp name="Argument.value">192.168.2.178</stringProp>
+            <stringProp name="Argument.value">192.168.132.140</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="PROTOCOL" elementType="Argument">
@@ -477,10 +477,10 @@
         </TransactionController>
         <hashTree>
           <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Dates" enabled="true">
-            <stringProp name="filename">C:/Users/Shushanik_Tonoyan/OneDrive - EPAM/Performace Testing MP/PerformanceTestingMP_Task2/dates.csv</stringProp>
+            <stringProp name="filename">dates.csv</stringProp>
             <stringProp name="fileEncoding"></stringProp>
             <stringProp name="variableNames">DATE</stringProp>
-            <boolProp name="ignoreFirstLine">true</boolProp>
+            <boolProp name="ignoreFirstLine">false</boolProp>
             <stringProp name="delimiter">,</stringProp>
             <boolProp name="quotedData">false</boolProp>
             <boolProp name="recycle">true</boolProp>
