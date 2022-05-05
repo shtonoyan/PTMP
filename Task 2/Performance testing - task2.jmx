@@ -43,12 +43,12 @@
           </elementProp>
           <elementProp name="POSTS_COUNT" elementType="Argument">
             <stringProp name="Argument.name">POSTS_COUNT</stringProp>
-            <stringProp name="Argument.value">4</stringProp>
+            <stringProp name="Argument.value">110</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="PREDEFINED_DATE_POSTS_COUNT" elementType="Argument">
             <stringProp name="Argument.name">PREDEFINED_DATE_POSTS_COUNT</stringProp>
-            <stringProp name="Argument.value">2</stringProp>
+            <stringProp name="Argument.value">100</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="START_DATE" elementType="Argument">
@@ -58,7 +58,7 @@
           </elementProp>
           <elementProp name="END_DATE" elementType="Argument">
             <stringProp name="Argument.name">END_DATE</stringProp>
-            <stringProp name="Argument.value">2022-04-18</stringProp>
+            <stringProp name="Argument.value">2022-04-30</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
         </collectionProp>
