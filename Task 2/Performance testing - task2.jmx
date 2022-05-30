@@ -28,7 +28,7 @@
         <collectionProp name="Arguments.arguments">
           <elementProp name="DOMAIN" elementType="Argument">
             <stringProp name="Argument.name">DOMAIN</stringProp>
-            <stringProp name="Argument.value">192.168.132.140</stringProp>
+            <stringProp name="Argument.value">192.168.2.178</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="PROTOCOL" elementType="Argument">
@@ -43,22 +43,22 @@
           </elementProp>
           <elementProp name="POSTS_COUNT" elementType="Argument">
             <stringProp name="Argument.name">POSTS_COUNT</stringProp>
-            <stringProp name="Argument.value">4</stringProp>
+            <stringProp name="Argument.value">110</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="PREDEFINED_DATE_POSTS_COUNT" elementType="Argument">
             <stringProp name="Argument.name">PREDEFINED_DATE_POSTS_COUNT</stringProp>
-            <stringProp name="Argument.value">2</stringProp>
+            <stringProp name="Argument.value">100</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="START_DATE" elementType="Argument">
             <stringProp name="Argument.name">START_DATE</stringProp>
-            <stringProp name="Argument.value">2022-02-05</stringProp>
+            <stringProp name="Argument.value">2022-03-20</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="END_DATE" elementType="Argument">
             <stringProp name="Argument.name">END_DATE</stringProp>
-            <stringProp name="Argument.value">2022-04-18</stringProp>
+            <stringProp name="Argument.value">2022-05-20</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
         </collectionProp>
