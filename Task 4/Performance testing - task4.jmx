@@ -28,7 +28,7 @@
         <collectionProp name="Arguments.arguments">
           <elementProp name="DOMAIN" elementType="Argument">
             <stringProp name="Argument.name">DOMAIN</stringProp>
-            <stringProp name="Argument.value">192.168.253.140</stringProp>
+            <stringProp name="Argument.value">192.168.2.178</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="PROTOCOL" elementType="Argument">
@@ -355,6 +355,15 @@
           </collectionProp>
         </ModuleController>
         <hashTree/>
+        <ModuleController guiclass="ModuleControllerGui" testclass="ModuleController" testname="Open Users Tab" enabled="true">
+          <collectionProp name="ModuleController.node_path">
+            <stringProp name="764597751">Test Plan</stringProp>
+            <stringProp name="764597751">Test Plan</stringProp>
+            <stringProp name="170071582">Test Fragment</stringProp>
+            <stringProp name="636452615">Open Users Tab</stringProp>
+          </collectionProp>
+        </ModuleController>
+        <hashTree/>
         <WhileController guiclass="WhileControllerGui" testclass="WhileController" testname="Delete Users Before Test" enabled="true">
           <stringProp name="WhileController.condition">${__groovy(vars.get(&quot;CUSTOM_USERS_COUNT_matchNr&quot;).toInteger()&gt;0)}</stringProp>
         </WhileController>
@@ -368,12 +377,12 @@
             </collectionProp>
           </ModuleController>
           <hashTree/>
-          <ModuleController guiclass="ModuleControllerGui" testclass="ModuleController" testname="Open Admin Page" enabled="true">
+          <ModuleController guiclass="ModuleControllerGui" testclass="ModuleController" testname="Open Users Page" enabled="true">
             <collectionProp name="ModuleController.node_path">
               <stringProp name="764597751">Test Plan</stringProp>
               <stringProp name="764597751">Test Plan</stringProp>
               <stringProp name="170071582">Test Fragment</stringProp>
-              <stringProp name="749228150">Open Admin Page</stringProp>
+              <stringProp name="636452615">Open Users Tab</stringProp>
             </collectionProp>
           </ModuleController>
           <hashTree/>
@@ -722,6 +731,15 @@
             </ModuleController>
             <hashTree/>
           </hashTree>
+          <ModuleController guiclass="ModuleControllerGui" testclass="ModuleController" testname="Open User Page" enabled="true">
+            <collectionProp name="ModuleController.node_path">
+              <stringProp name="764597751">Test Plan</stringProp>
+              <stringProp name="764597751">Test Plan</stringProp>
+              <stringProp name="170071582">Test Fragment</stringProp>
+              <stringProp name="636452615">Open Users Tab</stringProp>
+            </collectionProp>
+          </ModuleController>
+          <hashTree/>
           <IfController guiclass="IfControllerPanel" testclass="IfController" testname="If Users Count&lt;10" enabled="true">
             <stringProp name="IfController.condition">${__groovy(vars.get(&quot;USERS_COUNT_matchNr&quot;).toInteger()&lt;10)}</stringProp>
             <boolProp name="IfController.evaluateAll">false</boolProp>
@@ -1412,6 +1430,12 @@
             </HeaderManager>
             <hashTree/>
           </hashTree>
+        </hashTree>
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="Open Users Tab" enabled="true">
+          <boolProp name="TransactionController.includeTimers">false</boolProp>
+          <boolProp name="TransactionController.parent">true</boolProp>
+        </TransactionController>
+        <hashTree>
           <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/blog/api/users/admin-395" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments"/>
