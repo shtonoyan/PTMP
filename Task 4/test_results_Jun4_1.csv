@@ -1,0 +1,574 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1654369614194,592,Open Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",setUp Thread Group 1-1,,true,,315057,7998,1,1,null,0,2875,7
+1654369617062,592,/blog-29,200,OK,setUp Thread Group 1-1,text,true,,315057,7998,1,1,http://192.168.2.178/blog,35,0,7
+1654369617662,240,Login,200,"Number of samples in transaction : 2, number of failing samples : 0",setUp Thread Group 1-1,,true,,242033,30200,1,1,null,0,6259,0
+1654369620635,120,/blog/Account/login.aspx-284,200,OK,setUp Thread Group 1-1,text,true,,107855,2567,1,1,http://192.168.2.178/blog/Account/login.aspx,3,0,0
+1654369624040,120,/blog/Account/login.aspx-93,200,OK,setUp Thread Group 1-1,text,true,,134178,27633,1,1,http://192.168.2.178/blog/,4,0,0
+1654369624161,1593,Open Admin Page,200,"Number of samples in transaction : 5, number of failing samples : 0",setUp Thread Group 1-1,,true,,786385,14783,1,1,null,0,14890,0
+1654369627268,242,/blog/api/packages-372,200,OK,setUp Thread Group 1-1,text,true,,231,1166,1,1,http://192.168.2.178/blog/api/packages?skip=0&take=5,242,0,0
+1654369630565,76,/blog/admin/-371,200,OK,setUp Thread Group 1-1,text,true,,708980,10094,1,1,http://192.168.2.178/blog/admin/,2,0,0
+1654369633559,10,/blog/api/dashboard-374,200,OK,setUp Thread Group 1-1,text,true,,76551,1153,1,1,http://192.168.2.178/blog/api/dashboard,9,0,0
+1654369636366,36,/blog/api/setup-375,200,OK,setUp Thread Group 1-1,text,true,,231,1204,1,1,http://192.168.2.178/blog/api/setup?version=3.2.0.3,36,0,0
+1654369639415,1229,/blog/api/newsfeed-373,200,OK,setUp Thread Group 1-1,text,true,,392,1166,1,1,http://192.168.2.178/blog/api/newsfeed?skip=0&take=5,1229,0,0
+1654369640645,18,Open Users Tab,200,"Number of samples in transaction : 3, number of failing samples : 0",setUp Thread Group 1-1,,true,,5750,3546,1,1,null,0,8839,0
+1654369643673,5,/blog/api/users/admin-395,200,OK,setUp Thread Group 1-1,text,true,,717,1155,1,1,http://192.168.2.178/blog/api/users/admin,5,0,0
+1654369646551,4,/blog/api/customfields-396,200,OK,setUp Thread Group 1-1,text,true,,231,1195,1,1,http://192.168.2.178/blog/api/customfields?filter=CustomType+%3D%3D+%22PROFILE%22,3,0,0
+1654369649452,9,/blog/api/users-397,200,OK,setUp Thread Group 1-1,text,true,,4802,1196,1,1,http://192.168.2.178/blog/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,9,0,0
+1654369650812,19,Delete User,200,"Number of samples in transaction : 1, number of failing samples : 0",setUp Thread Group 1-1,,true,,182,1722,1,1,null,0,3160,0
+1654369653972,19,/blog/api/users/processchecked/delete-120,200,OK,setUp Thread Group 1-1,,true,,182,1722,1,1,http://192.168.2.178/blog/api/users/processchecked/delete,19,0,0
+1654369653991,10,Open Users Tab,200,"Number of samples in transaction : 3, number of failing samples : 0",setUp Thread Group 1-1,,true,,5295,3546,1,1,null,0,8771,0
+1654369656874,3,/blog/api/users/admin-395,200,OK,setUp Thread Group 1-1,text,true,,717,1155,1,1,http://192.168.2.178/blog/api/users/admin,3,0,0
+1654369659792,3,/blog/api/customfields-396,200,OK,setUp Thread Group 1-1,text,true,,231,1195,1,1,http://192.168.2.178/blog/api/customfields?filter=CustomType+%3D%3D+%22PROFILE%22,3,0,0
+1654369662766,4,/blog/api/users-397,200,OK,setUp Thread Group 1-1,text,true,,4347,1196,1,1,http://192.168.2.178/blog/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,4,0,0
+1654369662772,5,Delete User,200,"Number of samples in transaction : 1, number of failing samples : 0",setUp Thread Group 1-1,,true,,182,1722,1,1,null,0,3028,0
+1654369665801,5,/blog/api/users/processchecked/delete-120,200,OK,setUp Thread Group 1-1,,true,,182,1722,1,1,http://192.168.2.178/blog/api/users/processchecked/delete,5,0,0
+1654369665806,10,Open Users Tab,200,"Number of samples in transaction : 3, number of failing samples : 0",setUp Thread Group 1-1,,true,,4840,3546,1,1,null,0,9273,0
+1654369668853,3,/blog/api/users/admin-395,200,OK,setUp Thread Group 1-1,text,true,,717,1155,1,1,http://192.168.2.178/blog/api/users/admin,3,0,0
+1654369671908,3,/blog/api/customfields-396,200,OK,setUp Thread Group 1-1,text,true,,231,1195,1,1,http://192.168.2.178/blog/api/customfields?filter=CustomType+%3D%3D+%22PROFILE%22,3,0,0
+1654369675084,4,/blog/api/users-397,200,OK,setUp Thread Group 1-1,text,true,,3892,1196,1,1,http://192.168.2.178/blog/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,4,0,0
+1654369675089,6,Delete User,200,"Number of samples in transaction : 1, number of failing samples : 0",setUp Thread Group 1-1,,true,,182,1722,1,1,null,0,3044,1
+1654369678133,6,/blog/api/users/processchecked/delete-120,200,OK,setUp Thread Group 1-1,,true,,182,1722,1,1,http://192.168.2.178/blog/api/users/processchecked/delete,6,0,1
+1654369678140,9,Open Users Tab,200,"Number of samples in transaction : 3, number of failing samples : 0",setUp Thread Group 1-1,,true,,4385,3546,1,1,null,0,8709,0
+1654369681126,3,/blog/api/users/admin-395,200,OK,setUp Thread Group 1-1,text,true,,717,1155,1,1,http://192.168.2.178/blog/api/users/admin,3,0,0
+1654369684220,3,/blog/api/customfields-396,200,OK,setUp Thread Group 1-1,text,true,,231,1195,1,1,http://192.168.2.178/blog/api/customfields?filter=CustomType+%3D%3D+%22PROFILE%22,3,0,0
+1654369686854,3,/blog/api/users-397,200,OK,setUp Thread Group 1-1,text,true,,3437,1196,1,1,http://192.168.2.178/blog/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,3,0,0
+1654369686859,5,Delete User,200,"Number of samples in transaction : 1, number of failing samples : 0",setUp Thread Group 1-1,,true,,182,1722,1,1,null,0,2903,0
+1654369689762,5,/blog/api/users/processchecked/delete-120,200,OK,setUp Thread Group 1-1,,true,,182,1722,1,1,http://192.168.2.178/blog/api/users/processchecked/delete,5,0,0
+1654369689767,8,Open Users Tab,200,"Number of samples in transaction : 3, number of failing samples : 0",setUp Thread Group 1-1,,true,,3930,3546,1,1,null,0,9277,0
+1654369692837,3,/blog/api/users/admin-395,200,OK,setUp Thread Group 1-1,text,true,,717,1155,1,1,http://192.168.2.178/blog/api/users/admin,3,0,0
+1654369695890,2,/blog/api/customfields-396,200,OK,setUp Thread Group 1-1,text,true,,231,1195,1,1,http://192.168.2.178/blog/api/customfields?filter=CustomType+%3D%3D+%22PROFILE%22,2,0,0
+1654369699047,3,/blog/api/users-397,200,OK,setUp Thread Group 1-1,text,true,,2982,1196,1,1,http://192.168.2.178/blog/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,3,0,0
+1654369699052,5,Delete User,200,"Number of samples in transaction : 1, number of failing samples : 0",setUp Thread Group 1-1,,true,,182,1722,1,1,null,0,3061,0
+1654369702113,5,/blog/api/users/processchecked/delete-120,200,OK,setUp Thread Group 1-1,,true,,182,1722,1,1,http://192.168.2.178/blog/api/users/processchecked/delete,5,0,0
+1654369702119,8,Open Users Tab,200,"Number of samples in transaction : 3, number of failing samples : 0",setUp Thread Group 1-1,,true,,3475,3546,1,1,null,0,8788,0
+1654369704993,2,/blog/api/users/admin-395,200,OK,setUp Thread Group 1-1,text,true,,717,1155,1,1,http://192.168.2.178/blog/api/users/admin,2,0,0
+1654369707900,3,/blog/api/customfields-396,200,OK,setUp Thread Group 1-1,text,true,,231,1195,1,1,http://192.168.2.178/blog/api/customfields?filter=CustomType+%3D%3D+%22PROFILE%22,3,0,0
+1654369710911,3,/blog/api/users-397,200,OK,setUp Thread Group 1-1,text,true,,2527,1196,1,1,http://192.168.2.178/blog/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,3,0,0
+1654369710915,6,Delete User,200,"Number of samples in transaction : 1, number of failing samples : 0",setUp Thread Group 1-1,,true,,182,1722,1,1,null,0,2976,0
+1654369713892,6,/blog/api/users/processchecked/delete-120,200,OK,setUp Thread Group 1-1,,true,,182,1722,1,1,http://192.168.2.178/blog/api/users/processchecked/delete,6,0,0
+1654369713898,10,Open Users Tab,200,"Number of samples in transaction : 3, number of failing samples : 0",setUp Thread Group 1-1,,true,,3020,3546,1,1,null,0,8958,0
+1654369717047,3,/blog/api/users/admin-395,200,OK,setUp Thread Group 1-1,text,true,,717,1155,1,1,http://192.168.2.178/blog/api/users/admin,3,0,0
+1654369720014,3,/blog/api/customfields-396,200,OK,setUp Thread Group 1-1,text,true,,231,1195,1,1,http://192.168.2.178/blog/api/customfields?filter=CustomType+%3D%3D+%22PROFILE%22,3,0,0
+1654369722862,4,/blog/api/users-397,200,OK,setUp Thread Group 1-1,text,true,,2072,1196,1,1,http://192.168.2.178/blog/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,4,0,0
+1654369722867,389,Logout,200,"Number of samples in transaction : 1, number of failing samples : 0",setUp Thread Group 1-1,,true,,273221,11204,1,1,null,0,3103,0
+1654369725969,389,/blog/Account/login.aspx-65,200,OK,setUp Thread Group 1-1,text,true,,273221,11204,1,1,http://192.168.2.178/blog/,6,0,0
+1654369846381,449,Open Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,315225,7998,1,1,null,0,3093,1
+1654369849468,449,/blog-29,200,OK,Thread Group 1-1,text,true,,315225,7998,1,1,http://192.168.2.178/blog,6,0,1
+1654369849922,272,Login,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,241872,30198,1,1,null,0,5999,0
+1654369852929,109,/blog/Account/login.aspx-284,200,OK,Thread Group 1-1,text,true,,107855,2567,1,1,http://192.168.2.178/blog/Account/login.aspx,4,0,0
+1654369856030,163,/blog/Account/login.aspx-93,200,OK,Thread Group 1-1,text,true,,134017,27631,1,1,http://192.168.2.178/blog/,4,0,0
+1654369856194,1571,Open Admin Page,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-1,,true,,786380,14783,1,1,null,0,15208,0
+1654369859366,4,/blog/api/packages-372,200,OK,Thread Group 1-1,text,true,,231,1166,1,1,http://192.168.2.178/blog/api/packages?skip=0&take=5,4,0,0
+1654369862380,75,/blog/admin/-371,200,OK,Thread Group 1-1,text,true,,708975,10094,1,1,http://192.168.2.178/blog/admin/,4,0,0
+1654369865490,9,/blog/api/dashboard-374,200,OK,Thread Group 1-1,text,true,,76551,1153,1,1,http://192.168.2.178/blog/api/dashboard,8,0,0
+1654369868588,421,/blog/api/setup-375,200,OK,Thread Group 1-1,text,true,,231,1204,1,1,http://192.168.2.178/blog/api/setup?version=3.2.0.3,421,0,0
+1654369871912,1062,/blog/api/newsfeed-373,200,OK,Thread Group 1-1,text,true,,392,1166,1,1,http://192.168.2.178/blog/api/newsfeed?skip=0&take=5,1061,0,0
+1654369876382,214,Open Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,149554,7998,2,2,null,0,2961,1
+1654369879342,214,/blog-29,200,OK,Thread Group 1-2,text,true,,149554,7998,2,2,http://192.168.2.178/blog,6,0,1
+1654369872974,13,Open Users Tab,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,3020,3546,2,2,null,0,9228,0
+1654369876144,4,/blog/api/users/admin-395,200,OK,Thread Group 1-1,text,true,,717,1155,1,1,http://192.168.2.178/blog/api/users/admin,4,0,0
+1654369879170,4,/blog/api/customfields-396,200,OK,Thread Group 1-1,text,true,,231,1195,2,2,http://192.168.2.178/blog/api/customfields?filter=CustomType+%3D%3D+%22PROFILE%22,4,0,0
+1654369882208,5,/blog/api/users-397,200,OK,Thread Group 1-1,text,true,,2072,1196,2,2,http://192.168.2.178/blog/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,5,0,0
+1654369882225,5,Add User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,554,1519,2,2,null,0,3221,0
+1654369885447,5,/blog/api/users-111,201,Created,Thread Group 1-1,text,true,,554,1519,2,2,http://192.168.2.178/blog/api/users,5,0,0
+1654369879557,372,Login,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,166325,30200,2,2,null,0,6045,0
+1654369882662,278,/blog/Account/login.aspx-284,200,OK,Thread Group 1-2,text,true,,107855,2567,2,2,http://192.168.2.178/blog/Account/login.aspx,3,0,0
+1654369885881,94,/blog/Account/login.aspx-93,200,OK,Thread Group 1-2,text,true,,58470,27633,2,2,http://192.168.2.178/blog/,3,0,0
+1654369885477,623,Open Admin Page,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-1,,true,,89133,15171,2,2,null,0,15034,0
+1654369888629,4,/blog/api/packages-372,200,OK,Thread Group 1-1,text,true,,231,1166,2,2,http://192.168.2.178/blog/api/packages?skip=0&take=5,4,0,0
+1654369891591,80,/blog/admin/-371,200,OK,Thread Group 1-1,text,true,,11535,10482,2,2,http://192.168.2.178/blog/admin/,2,0,0
+1654369894692,12,/blog/api/dashboard-374,200,OK,Thread Group 1-1,text,true,,76744,1153,2,2,http://192.168.2.178/blog/api/dashboard,12,0,0
+1654369897745,33,/blog/api/setup-375,200,OK,Thread Group 1-1,text,true,,231,1204,2,2,http://192.168.2.178/blog/api/setup?version=3.2.0.3,33,0,0
+1654369900640,494,/blog/api/newsfeed-373,200,OK,Thread Group 1-1,text,true,,392,1166,2,2,http://192.168.2.178/blog/api/newsfeed?skip=0&take=5,494,0,0
+1654369885975,569,Open Admin Page,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-2,,true,,701260,14783,2,2,null,0,14829,0
+1654369888811,4,/blog/api/packages-372,200,OK,Thread Group 1-2,text,true,,231,1166,2,2,http://192.168.2.178/blog/api/packages?skip=0&take=5,4,0,0
+1654369891898,80,/blog/admin/-371,200,OK,Thread Group 1-2,text,true,,623662,10094,2,2,http://192.168.2.178/blog/admin/,3,0,0
+1654369894951,12,/blog/api/dashboard-374,200,OK,Thread Group 1-2,text,true,,76744,1153,2,2,http://192.168.2.178/blog/api/dashboard,11,0,0
+1654369897967,38,/blog/api/setup-375,200,OK,Thread Group 1-2,text,true,,231,1204,2,2,http://192.168.2.178/blog/api/setup?version=3.2.0.3,38,0,0
+1654369900938,435,/blog/api/newsfeed-373,200,OK,Thread Group 1-2,text,true,,392,1166,2,2,http://192.168.2.178/blog/api/newsfeed?skip=0&take=5,435,0,0
+1654369901135,42,Open Users Tab,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,3475,3546,2,2,null,0,9162,0
+1654369904225,9,/blog/api/users/admin-395,200,OK,Thread Group 1-1,text,true,,717,1155,2,2,http://192.168.2.178/blog/api/users/admin,9,0,0
+1654369907239,30,/blog/api/customfields-396,200,OK,Thread Group 1-1,text,true,,231,1195,2,2,http://192.168.2.178/blog/api/customfields?filter=CustomType+%3D%3D+%22PROFILE%22,30,0,0
+1654369910335,3,/blog/api/users-397,200,OK,Thread Group 1-1,text,true,,2527,1196,2,2,http://192.168.2.178/blog/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,3,0,0
+1654369901373,52,Open Users Tab,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-2,,true,,3475,3546,2,2,null,0,9075,0
+1654369904360,3,/blog/api/users/admin-395,200,OK,Thread Group 1-2,text,true,,717,1155,2,2,http://192.168.2.178/blog/api/users/admin,3,0,0
+1654369907377,46,/blog/api/customfields-396,200,OK,Thread Group 1-2,text,true,,231,1195,2,2,http://192.168.2.178/blog/api/customfields?filter=CustomType+%3D%3D+%22PROFILE%22,46,0,0
+1654369910497,3,/blog/api/users-397,200,OK,Thread Group 1-2,text,true,,2527,1196,2,2,http://192.168.2.178/blog/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,3,0,0
+1654369910340,6,Add User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,554,1518,2,2,null,0,2831,0
+1654369913171,6,/blog/api/users-111,201,Created,Thread Group 1-1,text,true,,554,1518,2,2,http://192.168.2.178/blog/api/users,6,0,0
+1654369910501,6,Add User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,554,1518,2,2,null,0,2998,0
+1654369913499,6,/blog/api/users-111,201,Created,Thread Group 1-2,text,true,,554,1518,2,2,http://192.168.2.178/blog/api/users,6,0,0
+1654369913177,710,Open Admin Page,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-1,,true,,125980,15171,2,2,null,0,15160,0
+1654369916130,3,/blog/api/packages-372,200,OK,Thread Group 1-1,text,true,,231,1166,2,2,http://192.168.2.178/blog/api/packages?skip=0&take=5,3,0,0
+1654369919077,117,/blog/admin/-371,200,OK,Thread Group 1-1,text,true,,47996,10482,2,2,http://192.168.2.178/blog/admin/,3,0,0
+1654369922198,9,/blog/api/dashboard-374,200,OK,Thread Group 1-1,text,true,,77130,1153,2,2,http://192.168.2.178/blog/api/dashboard,9,0,0
+1654369925475,29,/blog/api/setup-375,200,OK,Thread Group 1-1,text,true,,231,1204,2,2,http://192.168.2.178/blog/api/setup?version=3.2.0.3,29,0,0
+1654369928495,552,/blog/api/newsfeed-373,200,OK,Thread Group 1-1,text,true,,392,1166,2,2,http://192.168.2.178/blog/api/newsfeed?skip=0&take=5,552,0,0
+1654369913506,537,Open Admin Page,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-2,,true,,89522,15169,2,2,null,0,15383,0
+1654369916728,4,/blog/api/packages-372,200,OK,Thread Group 1-2,text,true,,231,1166,2,2,http://192.168.2.178/blog/api/packages?skip=0&take=5,4,0,0
+1654369919608,73,/blog/admin/-371,200,OK,Thread Group 1-2,text,true,,11538,10480,2,2,http://192.168.2.178/blog/admin/,1,0,0
+1654369922796,9,/blog/api/dashboard-374,200,OK,Thread Group 1-2,text,true,,77130,1153,2,2,http://192.168.2.178/blog/api/dashboard,8,0,0
+1654369925862,30,/blog/api/setup-375,200,OK,Thread Group 1-2,text,true,,231,1204,2,2,http://192.168.2.178/blog/api/setup?version=3.2.0.3,30,0,0
+1654369929004,421,/blog/api/newsfeed-373,200,OK,Thread Group 1-2,text,true,,392,1166,2,2,http://192.168.2.178/blog/api/newsfeed?skip=0&take=5,421,0,0
+1654369929047,11,Open Users Tab,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,4385,3546,2,2,null,0,9063,0
+1654369931953,5,/blog/api/users/admin-395,200,OK,Thread Group 1-1,text,true,,717,1155,2,2,http://192.168.2.178/blog/api/users/admin,5,0,0
+1654369935011,3,/blog/api/customfields-396,200,OK,Thread Group 1-1,text,true,,231,1195,2,2,http://192.168.2.178/blog/api/customfields?filter=CustomType+%3D%3D+%22PROFILE%22,3,0,0
+1654369938116,3,/blog/api/users-397,200,OK,Thread Group 1-1,text,true,,3437,1196,2,2,http://192.168.2.178/blog/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,3,0,0
+1654369929426,12,Open Users Tab,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-2,,true,,4385,3546,2,2,null,0,8825,0
+1654369932402,6,/blog/api/users/admin-395,200,OK,Thread Group 1-2,text,true,,717,1155,2,2,http://192.168.2.178/blog/api/users/admin,6,0,0
+1654369935463,3,/blog/api/customfields-396,200,OK,Thread Group 1-2,text,true,,231,1195,2,2,http://192.168.2.178/blog/api/customfields?filter=CustomType+%3D%3D+%22PROFILE%22,3,0,0
+1654369938258,3,/blog/api/users-397,200,OK,Thread Group 1-2,text,true,,3437,1196,2,2,http://192.168.2.178/blog/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,3,0,0
+1654369938121,5,Add User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,554,1521,2,2,null,0,2898,0
+1654369941019,5,/blog/api/users-111,201,Created,Thread Group 1-1,text,true,,554,1521,2,2,http://192.168.2.178/blog/api/users,5,0,0
+1654369938262,6,Add User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,554,1520,2,2,null,0,2883,1
+1654369941145,6,/blog/api/users-111,201,Created,Thread Group 1-2,text,true,,554,1520,2,2,http://192.168.2.178/blog/api/users,6,0,1
+1654369941151,1063,Open Admin Page,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-2,,true,,89908,15169,2,2,null,0,14891,0
+1654369943923,3,/blog/api/packages-372,200,OK,Thread Group 1-2,text,true,,231,1166,2,2,http://192.168.2.178/blog/api/packages?skip=0&take=5,3,0,0
+1654369946998,198,/blog/admin/-371,200,OK,Thread Group 1-2,text,true,,11538,10480,2,2,http://192.168.2.178/blog/admin/,7,0,0
+1654369950307,8,/blog/api/dashboard-374,200,OK,Thread Group 1-2,text,true,,77516,1153,2,2,http://192.168.2.178/blog/api/dashboard,8,0,0
+1654369953327,129,/blog/api/setup-375,200,OK,Thread Group 1-2,text,true,,231,1204,2,2,http://192.168.2.178/blog/api/setup?version=3.2.0.3,129,0,0
+1654369956381,725,/blog/api/newsfeed-373,200,OK,Thread Group 1-2,text,true,,392,1166,2,2,http://192.168.2.178/blog/api/newsfeed?skip=0&take=5,725,0,0
+1654369941025,1607,Open Admin Page,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-1,,true,,89903,15169,2,2,null,0,15224,0
+1654369943878,3,/blog/api/packages-372,200,OK,Thread Group 1-1,text,true,,231,1166,2,2,http://192.168.2.178/blog/api/packages?skip=0&take=5,3,0,0
+1654369946990,99,/blog/admin/-371,200,OK,Thread Group 1-1,text,true,,11533,10480,2,2,http://192.168.2.178/blog/admin/,3,0,0
+1654369950249,9,/blog/api/dashboard-374,200,OK,Thread Group 1-1,text,true,,77516,1153,2,2,http://192.168.2.178/blog/api/dashboard,9,0,0
+1654369953308,147,/blog/api/setup-375,200,OK,Thread Group 1-1,text,true,,231,1204,2,2,http://192.168.2.178/blog/api/setup?version=3.2.0.3,147,0,0
+1654369956508,1349,/blog/api/newsfeed-373,200,OK,Thread Group 1-1,text,true,,392,1166,2,2,http://192.168.2.178/blog/api/newsfeed?skip=0&take=5,1349,0,0
+1654369957107,11,Open Users Tab,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-2,,true,,5295,3546,2,2,null,0,8882,0
+1654369960162,5,/blog/api/users/admin-395,200,OK,Thread Group 1-2,text,true,,717,1155,2,2,http://192.168.2.178/blog/api/users/admin,5,0,0
+1654369963025,3,/blog/api/customfields-396,200,OK,Thread Group 1-2,text,true,,231,1195,2,2,http://192.168.2.178/blog/api/customfields?filter=CustomType+%3D%3D+%22PROFILE%22,3,0,0
+1654369965996,3,/blog/api/users-397,200,OK,Thread Group 1-2,text,true,,4347,1196,2,2,http://192.168.2.178/blog/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,3,0,0
+1654369957858,8,Open Users Tab,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,5295,3546,2,2,null,0,9122,0
+1654369960808,3,/blog/api/users/admin-395,200,OK,Thread Group 1-1,text,true,,717,1155,2,2,http://192.168.2.178/blog/api/users/admin,3,0,0
+1654369963887,2,/blog/api/customfields-396,200,OK,Thread Group 1-1,text,true,,231,1195,2,2,http://192.168.2.178/blog/api/customfields?filter=CustomType+%3D%3D+%22PROFILE%22,2,0,0
+1654369966984,3,/blog/api/users-397,200,OK,Thread Group 1-1,text,true,,4347,1196,2,2,http://192.168.2.178/blog/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,3,0,0
+1654369966001,12,Add User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,554,1519,2,2,null,0,3162,0
+1654369969162,12,/blog/api/users-111,201,Created,Thread Group 1-2,text,true,,554,1519,2,2,http://192.168.2.178/blog/api/users,12,0,0
+1654369966988,4,Add User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,554,1521,2,2,null,0,2936,0
+1654369969923,4,/blog/api/users-111,201,Created,Thread Group 1-1,text,true,,554,1521,2,2,http://192.168.2.178/blog/api/users,4,0,0
+1654369969175,723,Open Admin Page,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-2,,true,,90294,15169,2,2,null,0,14914,0
+1654369972219,3,/blog/api/packages-372,200,OK,Thread Group 1-2,text,true,,231,1166,2,2,http://192.168.2.178/blog/api/packages?skip=0&take=5,3,0,0
+1654369975201,75,/blog/admin/-371,200,OK,Thread Group 1-2,text,true,,11538,10480,2,2,http://192.168.2.178/blog/admin/,3,0,0
+1654369978309,9,/blog/api/dashboard-374,200,OK,Thread Group 1-2,text,true,,77902,1153,2,2,http://192.168.2.178/blog/api/dashboard,8,0,0
+1654369981231,30,/blog/api/setup-375,200,OK,Thread Group 1-2,text,true,,231,1204,2,2,http://192.168.2.178/blog/api/setup?version=3.2.0.3,30,0,0
+1654369984206,606,/blog/api/newsfeed-373,200,OK,Thread Group 1-2,text,true,,392,1166,2,2,http://192.168.2.178/blog/api/newsfeed?skip=0&take=5,606,0,0
+1654369969928,598,Open Admin Page,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-1,,true,,90289,15169,2,2,null,0,14887,0
+1654369973040,3,/blog/api/packages-372,200,OK,Thread Group 1-1,text,true,,231,1166,2,2,http://192.168.2.178/blog/api/packages?skip=0&take=5,3,0,0
+1654369976041,74,/blog/admin/-371,200,OK,Thread Group 1-1,text,true,,11533,10480,2,2,http://192.168.2.178/blog/admin/,2,0,0
+1654369978880,9,/blog/api/dashboard-374,200,OK,Thread Group 1-1,text,true,,77902,1153,2,2,http://192.168.2.178/blog/api/dashboard,8,0,0
+1654369981853,34,/blog/api/setup-375,200,OK,Thread Group 1-1,text,true,,231,1204,2,2,http://192.168.2.178/blog/api/setup?version=3.2.0.3,34,0,0
+1654369984935,478,/blog/api/newsfeed-373,200,OK,Thread Group 1-1,text,true,,392,1166,2,2,http://192.168.2.178/blog/api/newsfeed?skip=0&take=5,478,0,0
+1654369984813,11,Open Users Tab,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-2,,true,,6205,3546,2,2,null,0,8759,0
+1654369987747,5,/blog/api/users/admin-395,200,OK,Thread Group 1-2,text,true,,717,1155,2,2,http://192.168.2.178/blog/api/users/admin,5,0,0
+1654369990679,3,/blog/api/customfields-396,200,OK,Thread Group 1-2,text,true,,231,1195,2,2,http://192.168.2.178/blog/api/customfields?filter=CustomType+%3D%3D+%22PROFILE%22,3,0,0
+1654369993580,3,/blog/api/users-397,200,OK,Thread Group 1-2,text,true,,5257,1196,2,2,http://192.168.2.178/blog/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,3,0,0
+1654369985413,9,Open Users Tab,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,6205,3546,2,2,null,0,9167,0
+1654369988484,3,/blog/api/users/admin-395,200,OK,Thread Group 1-1,text,true,,717,1155,2,2,http://192.168.2.178/blog/api/users/admin,3,0,0
+1654369991542,3,/blog/api/customfields-396,200,OK,Thread Group 1-1,text,true,,231,1195,2,2,http://192.168.2.178/blog/api/customfields?filter=CustomType+%3D%3D+%22PROFILE%22,3,0,0
+1654369994586,3,/blog/api/users-397,200,OK,Thread Group 1-1,text,true,,5257,1196,2,2,http://192.168.2.178/blog/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,3,0,0
+1654369993585,4,Add User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,554,1519,2,2,null,0,2948,0
+1654369996532,4,/blog/api/users-111,201,Created,Thread Group 1-2,text,true,,554,1519,2,2,http://192.168.2.178/blog/api/users,4,0,0
+1654369994590,4,Add User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,554,1520,2,2,null,0,2974,0
+1654369997564,4,/blog/api/users-111,201,Created,Thread Group 1-1,text,true,,554,1520,2,2,http://192.168.2.178/blog/api/users,4,0,0
+1654369996537,11,Delete User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,182,1722,2,2,null,0,2955,0
+1654369999491,11,/blog/api/users/processchecked/delete-120,200,OK,Thread Group 1-2,,true,,182,1722,2,2,http://192.168.2.178/blog/api/users/processchecked/delete,11,0,0
+1654369997569,4,Delete User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,182,1721,2,2,null,0,2893,0
+1654370000461,4,/blog/api/users/processchecked/delete-120,200,OK,Thread Group 1-1,,true,,182,1721,2,2,http://192.168.2.178/blog/api/users/processchecked/delete,4,0,0
+1654369999503,882,Open Admin Page,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-2,,true,,90680,15169,2,2,null,0,15138,0
+1654370002593,2,/blog/api/packages-372,200,OK,Thread Group 1-2,text,true,,231,1166,2,2,http://192.168.2.178/blog/api/packages?skip=0&take=5,2,0,0
+1654370005878,74,/blog/admin/-371,200,OK,Thread Group 1-2,text,true,,11538,10480,2,2,http://192.168.2.178/blog/admin/,2,0,0
+1654370008814,9,/blog/api/dashboard-374,200,OK,Thread Group 1-2,text,true,,78288,1153,2,2,http://192.168.2.178/blog/api/dashboard,8,0,0
+1654370011832,98,/blog/api/setup-375,200,OK,Thread Group 1-2,text,true,,231,1204,2,2,http://192.168.2.178/blog/api/setup?version=3.2.0.3,98,0,0
+1654370014825,699,/blog/api/newsfeed-373,200,OK,Thread Group 1-2,text,true,,392,1166,2,2,http://192.168.2.178/blog/api/newsfeed?skip=0&take=5,699,0,0
+1654370000466,646,Open Admin Page,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-1,,true,,90675,15169,2,2,null,0,15059,0
+1654370003222,3,/blog/api/packages-372,200,OK,Thread Group 1-1,text,true,,231,1166,2,2,http://192.168.2.178/blog/api/packages?skip=0&take=5,2,0,0
+1654370006333,111,/blog/admin/-371,200,OK,Thread Group 1-1,text,true,,11533,10480,2,2,http://192.168.2.178/blog/admin/,2,0,0
+1654370009436,14,/blog/api/dashboard-374,200,OK,Thread Group 1-1,text,true,,78288,1153,2,2,http://192.168.2.178/blog/api/dashboard,13,0,0
+1654370012631,21,/blog/api/setup-375,200,OK,Thread Group 1-1,text,true,,231,1204,2,2,http://192.168.2.178/blog/api/setup?version=3.2.0.3,21,0,0
+1654370015675,497,/blog/api/newsfeed-373,200,OK,Thread Group 1-1,text,true,,392,1166,2,2,http://192.168.2.178/blog/api/newsfeed?skip=0&take=5,497,0,0
+1654370015525,12,Open Users Tab,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-2,,true,,6205,3546,2,2,null,0,8887,0
+1654370018401,7,/blog/api/users/admin-395,200,OK,Thread Group 1-2,text,true,,717,1155,2,2,http://192.168.2.178/blog/api/users/admin,7,0,0
+1654370021512,2,/blog/api/customfields-396,200,OK,Thread Group 1-2,text,true,,231,1195,2,2,http://192.168.2.178/blog/api/customfields?filter=CustomType+%3D%3D+%22PROFILE%22,2,0,0
+1654370024420,3,/blog/api/users-397,200,OK,Thread Group 1-2,text,true,,5257,1196,2,2,http://192.168.2.178/blog/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,3,0,0
+1654370016172,25,Open Users Tab,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,6205,3546,2,2,null,0,8837,0
+1654370019115,2,/blog/api/users/admin-395,200,OK,Thread Group 1-1,text,true,,717,1155,2,2,http://192.168.2.178/blog/api/users/admin,2,0,0
+1654370022112,2,/blog/api/customfields-396,200,OK,Thread Group 1-1,text,true,,231,1195,2,2,http://192.168.2.178/blog/api/customfields?filter=CustomType+%3D%3D+%22PROFILE%22,2,0,0
+1654370025012,21,/blog/api/users-397,200,OK,Thread Group 1-1,text,true,,5257,1196,2,2,http://192.168.2.178/blog/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,21,0,0
+1654370024424,5,Delete User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,182,1722,2,2,null,0,2889,0
+1654370027313,5,/blog/api/users/processchecked/delete-120,200,OK,Thread Group 1-2,,true,,182,1722,2,2,http://192.168.2.178/blog/api/users/processchecked/delete,5,0,0
+1654370025034,5,Delete User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,182,1721,2,2,null,0,3027,0
+1654370028061,5,/blog/api/users/processchecked/delete-120,200,OK,Thread Group 1-1,,true,,182,1721,2,2,http://192.168.2.178/blog/api/users/processchecked/delete,5,0,0
+1654370027318,2,Delete User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,182,1722,2,2,null,0,2915,0
+1654370030233,2,/blog/api/users/processchecked/delete-120,200,OK,Thread Group 1-2,,true,,182,1722,2,2,http://192.168.2.178/blog/api/users/processchecked/delete,2,0,0
+1654370028067,2,Delete User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,182,1721,2,2,null,0,2977,0
+1654370031043,2,/blog/api/users/processchecked/delete-120,200,OK,Thread Group 1-1,,true,,182,1721,2,2,http://192.168.2.178/blog/api/users/processchecked/delete,2,0,0
+1654370030236,634,Open Admin Page,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-2,,true,,90680,15169,2,2,null,0,14841,0
+1654370033216,3,/blog/api/packages-372,200,OK,Thread Group 1-2,text,true,,231,1166,2,2,http://192.168.2.178/blog/api/packages?skip=0&take=5,3,0,0
+1654370036093,112,/blog/admin/-371,200,OK,Thread Group 1-2,text,true,,11538,10480,2,2,http://192.168.2.178/blog/admin/,2,0,0
+1654370039122,8,/blog/api/dashboard-374,200,OK,Thread Group 1-2,text,true,,78288,1153,2,2,http://192.168.2.178/blog/api/dashboard,7,0,0
+1654370042205,33,/blog/api/setup-375,200,OK,Thread Group 1-2,text,true,,231,1204,2,2,http://192.168.2.178/blog/api/setup?version=3.2.0.3,33,0,0
+1654370045232,478,/blog/api/newsfeed-373,200,OK,Thread Group 1-2,text,true,,392,1166,2,2,http://192.168.2.178/blog/api/newsfeed?skip=0&take=5,478,0,0
+1654370031046,883,Open Admin Page,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-1,,true,,90675,15169,2,2,null,0,14971,0
+1654370034184,3,/blog/api/packages-372,200,OK,Thread Group 1-1,text,true,,231,1166,2,2,http://192.168.2.178/blog/api/packages?skip=0&take=5,2,0,0
+1654370037195,77,/blog/admin/-371,200,OK,Thread Group 1-1,text,true,,11533,10480,2,2,http://192.168.2.178/blog/admin/,3,0,0
+1654370040153,7,/blog/api/dashboard-374,200,OK,Thread Group 1-1,text,true,,78288,1153,2,2,http://192.168.2.178/blog/api/dashboard,7,0,0
+1654370043142,90,/blog/api/setup-375,200,OK,Thread Group 1-1,text,true,,231,1204,2,2,http://192.168.2.178/blog/api/setup?version=3.2.0.3,90,0,0
+1654370046193,706,/blog/api/newsfeed-373,200,OK,Thread Group 1-1,text,true,,392,1166,2,2,http://192.168.2.178/blog/api/newsfeed?skip=0&take=5,706,0,0
+1654370045710,8,Open Users Tab,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-2,,true,,5295,3546,2,2,null,0,8624,0
+1654370048762,3,/blog/api/users/admin-395,200,OK,Thread Group 1-2,text,true,,717,1155,2,2,http://192.168.2.178/blog/api/users/admin,3,0,0
+1654370051523,2,/blog/api/customfields-396,200,OK,Thread Group 1-2,text,true,,231,1195,2,2,http://192.168.2.178/blog/api/customfields?filter=CustomType+%3D%3D+%22PROFILE%22,2,0,0
+1654370054339,3,/blog/api/users-397,200,OK,Thread Group 1-2,text,true,,4347,1196,2,2,http://192.168.2.178/blog/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,3,0,0
+1654370046899,9,Open Users Tab,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,5295,3546,2,2,null,0,9104,0
+1654370049904,3,/blog/api/users/admin-395,200,OK,Thread Group 1-1,text,true,,717,1155,2,2,http://192.168.2.178/blog/api/users/admin,3,0,0
+1654370053080,3,/blog/api/customfields-396,200,OK,Thread Group 1-1,text,true,,231,1195,2,2,http://192.168.2.178/blog/api/customfields?filter=CustomType+%3D%3D+%22PROFILE%22,3,0,0
+1654370056008,3,/blog/api/users-397,200,OK,Thread Group 1-1,text,true,,4347,1196,2,2,http://192.168.2.178/blog/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,3,0,0
+1654370054343,5,Add User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,554,1518,2,2,null,0,3067,0
+1654370057410,5,/blog/api/users-111,201,Created,Thread Group 1-2,text,true,,554,1518,2,2,http://192.168.2.178/blog/api/users,5,0,0
+1654370056012,5,Add User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,554,1519,2,2,null,0,2837,0
+1654370058849,5,/blog/api/users-111,201,Created,Thread Group 1-1,text,true,,554,1519,2,2,http://192.168.2.178/blog/api/users,5,0,0
+1654370057416,547,Open Admin Page,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-2,,true,,91066,15169,2,2,null,0,15016,0
+1654370060544,3,/blog/api/packages-372,200,OK,Thread Group 1-2,text,true,,231,1166,2,2,http://192.168.2.178/blog/api/packages?skip=0&take=5,3,0,0
+1654370063602,76,/blog/admin/-371,200,OK,Thread Group 1-2,text,true,,11538,10480,2,2,http://192.168.2.178/blog/admin/,2,0,0
+1654370066608,9,/blog/api/dashboard-374,200,OK,Thread Group 1-2,text,true,,78674,1153,2,2,http://192.168.2.178/blog/api/dashboard,8,0,0
+1654370069624,31,/blog/api/setup-375,200,OK,Thread Group 1-2,text,true,,231,1204,2,2,http://192.168.2.178/blog/api/setup?version=3.2.0.3,31,0,0
+1654370072552,428,/blog/api/newsfeed-373,200,OK,Thread Group 1-2,text,true,,392,1166,2,2,http://192.168.2.178/blog/api/newsfeed?skip=0&take=5,428,0,0
+1654370058854,626,Open Admin Page,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-1,,true,,91061,15169,2,2,null,0,15015,0
+1654370061927,2,/blog/api/packages-372,200,OK,Thread Group 1-1,text,true,,231,1166,2,2,http://192.168.2.178/blog/api/packages?skip=0&take=5,2,0,0
+1654370065031,73,/blog/admin/-371,200,OK,Thread Group 1-1,text,true,,11533,10480,2,2,http://192.168.2.178/blog/admin/,1,0,0
+1654370068034,8,/blog/api/dashboard-374,200,OK,Thread Group 1-1,text,true,,78674,1153,2,2,http://192.168.2.178/blog/api/dashboard,7,0,0
+1654370070921,20,/blog/api/setup-375,200,OK,Thread Group 1-1,text,true,,231,1204,2,2,http://192.168.2.178/blog/api/setup?version=3.2.0.3,20,0,0
+1654370073972,523,/blog/api/newsfeed-373,200,OK,Thread Group 1-1,text,true,,392,1166,2,2,http://192.168.2.178/blog/api/newsfeed?skip=0&take=5,523,0,0
+1654370072981,13,Open Users Tab,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-2,,true,,6205,3546,2,2,null,0,9094,0
+1654370075954,6,/blog/api/users/admin-395,200,OK,Thread Group 1-2,text,true,,717,1155,2,2,http://192.168.2.178/blog/api/users/admin,6,0,0
+1654370079072,4,/blog/api/customfields-396,200,OK,Thread Group 1-2,text,true,,231,1195,2,2,http://192.168.2.178/blog/api/customfields?filter=CustomType+%3D%3D+%22PROFILE%22,4,0,0
+1654370082084,3,/blog/api/users-397,200,OK,Thread Group 1-2,text,true,,5257,1196,2,2,http://192.168.2.178/blog/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,3,0,0
+1654370074495,8,Open Users Tab,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,6205,3546,2,2,null,0,8706,0
+1654370077431,3,/blog/api/users/admin-395,200,OK,Thread Group 1-1,text,true,,717,1155,2,2,http://192.168.2.178/blog/api/users/admin,3,0,0
+1654370080283,2,/blog/api/customfields-396,200,OK,Thread Group 1-1,text,true,,231,1195,2,2,http://192.168.2.178/blog/api/customfields?filter=CustomType+%3D%3D+%22PROFILE%22,2,0,0
+1654370083206,3,/blog/api/users-397,200,OK,Thread Group 1-1,text,true,,5257,1196,2,2,http://192.168.2.178/blog/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,3,0,0
+1654370082089,6,Add User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,554,1518,2,2,null,0,3061,0
+1654370085149,6,/blog/api/users-111,201,Created,Thread Group 1-2,text,true,,554,1518,2,2,http://192.168.2.178/blog/api/users,6,0,0
+1654370083211,4,Delete User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,182,1721,2,2,null,0,2915,0
+1654370086125,4,/blog/api/users/processchecked/delete-120,200,OK,Thread Group 1-1,,true,,182,1721,2,2,http://192.168.2.178/blog/api/users/processchecked/delete,4,0,0
+1654370085156,5,Delete User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,182,1722,2,2,null,0,2977,0
+1654370088133,5,/blog/api/users/processchecked/delete-120,200,OK,Thread Group 1-2,,true,,182,1722,2,2,http://192.168.2.178/blog/api/users/processchecked/delete,5,0,0
+1654370086130,32,Delete User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,182,1721,2,2,null,0,3023,0
+1654370089154,32,/blog/api/users/processchecked/delete-120,200,OK,Thread Group 1-1,,true,,182,1721,2,2,http://192.168.2.178/blog/api/users/processchecked/delete,32,0,0
+1654370088138,742,Open Admin Page,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-2,,true,,91259,15169,2,2,null,0,14771,0
+1654370090984,3,/blog/api/packages-372,200,OK,Thread Group 1-2,text,true,,231,1166,2,2,http://192.168.2.178/blog/api/packages?skip=0&take=5,3,0,0
+1654370094037,136,/blog/admin/-371,200,OK,Thread Group 1-2,text,true,,11538,10480,2,2,http://192.168.2.178/blog/admin/,2,0,0
+1654370097003,8,/blog/api/dashboard-374,200,OK,Thread Group 1-2,text,true,,78867,1153,2,2,http://192.168.2.178/blog/api/dashboard,8,0,0
+1654370100048,33,/blog/api/setup-375,200,OK,Thread Group 1-2,text,true,,231,1204,2,2,http://192.168.2.178/blog/api/setup?version=3.2.0.3,33,0,0
+1654370103089,562,/blog/api/newsfeed-373,200,OK,Thread Group 1-2,text,true,,392,1166,2,2,http://192.168.2.178/blog/api/newsfeed?skip=0&take=5,562,0,0
+1654370089187,808,Open Admin Page,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-1,,true,,91254,15169,2,2,null,0,15003,0
+1654370092367,3,/blog/api/packages-372,200,OK,Thread Group 1-1,text,true,,231,1166,2,2,http://192.168.2.178/blog/api/packages?skip=0&take=5,3,0,0
+1654370095314,155,/blog/admin/-371,200,OK,Thread Group 1-1,text,true,,11533,10480,2,2,http://192.168.2.178/blog/admin/,2,0,0
+1654370098399,11,/blog/api/dashboard-374,200,OK,Thread Group 1-1,text,true,,78867,1153,2,2,http://192.168.2.178/blog/api/dashboard,11,0,0
+1654370101417,68,/blog/api/setup-375,200,OK,Thread Group 1-1,text,true,,231,1204,2,2,http://192.168.2.178/blog/api/setup?version=3.2.0.3,68,0,0
+1654370104427,571,/blog/api/newsfeed-373,200,OK,Thread Group 1-1,text,true,,392,1166,2,2,http://192.168.2.178/blog/api/newsfeed?skip=0&take=5,571,0,0
+1654370103651,10,Open Users Tab,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-2,,true,,5750,3546,2,2,null,0,9228,0
+1654370106729,4,/blog/api/users/admin-395,200,OK,Thread Group 1-2,text,true,,717,1155,2,2,http://192.168.2.178/blog/api/users/admin,4,0,0
+1654370109781,3,/blog/api/customfields-396,200,OK,Thread Group 1-2,text,true,,231,1195,2,2,http://192.168.2.178/blog/api/customfields?filter=CustomType+%3D%3D+%22PROFILE%22,3,0,0
+1654370112886,3,/blog/api/users-397,200,OK,Thread Group 1-2,text,true,,4802,1196,2,2,http://192.168.2.178/blog/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,3,0,0
+1654370104999,9,Open Users Tab,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,5750,3546,2,2,null,0,8927,0
+1654370108017,3,/blog/api/users/admin-395,200,OK,Thread Group 1-1,text,true,,717,1155,2,2,http://192.168.2.178/blog/api/users/admin,3,0,0
+1654370110912,3,/blog/api/customfields-396,200,OK,Thread Group 1-1,text,true,,231,1195,2,2,http://192.168.2.178/blog/api/customfields?filter=CustomType+%3D%3D+%22PROFILE%22,3,0,0
+1654370113931,3,/blog/api/users-397,200,OK,Thread Group 1-1,text,true,,4802,1196,2,2,http://192.168.2.178/blog/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,3,0,0
+1654370112890,6,Delete User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,182,1722,2,2,null,0,3078,0
+1654370115968,6,/blog/api/users/processchecked/delete-120,200,OK,Thread Group 1-2,,true,,182,1722,2,2,http://192.168.2.178/blog/api/users/processchecked/delete,6,0,0
+1654370113935,6,Delete User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,182,1721,2,2,null,0,2811,0
+1654370116746,6,/blog/api/users/processchecked/delete-120,200,OK,Thread Group 1-1,,true,,182,1721,2,2,http://192.168.2.178/blog/api/users/processchecked/delete,6,0,0
+1654370115975,625,Open Admin Page,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-2,,true,,91259,15169,2,2,null,0,14903,0
+1654370119061,3,/blog/api/packages-372,200,OK,Thread Group 1-2,text,true,,231,1166,2,2,http://192.168.2.178/blog/api/packages?skip=0&take=5,3,0,0
+1654370122082,120,/blog/admin/-371,200,OK,Thread Group 1-2,text,true,,11538,10480,2,2,http://192.168.2.178/blog/admin/,3,0,0
+1654370125152,8,/blog/api/dashboard-374,200,OK,Thread Group 1-2,text,true,,78867,1153,2,2,http://192.168.2.178/blog/api/dashboard,8,0,0
+1654370128097,67,/blog/api/setup-375,200,OK,Thread Group 1-2,text,true,,231,1204,2,2,http://192.168.2.178/blog/api/setup?version=3.2.0.3,67,0,0
+1654370131076,427,/blog/api/newsfeed-373,200,OK,Thread Group 1-2,text,true,,392,1166,2,2,http://192.168.2.178/blog/api/newsfeed?skip=0&take=5,426,0,0
+1654370116753,594,Open Admin Page,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-1,,true,,91254,15169,2,2,null,0,14509,0
+1654370119673,3,/blog/api/packages-372,200,OK,Thread Group 1-1,text,true,,231,1166,2,2,http://192.168.2.178/blog/api/packages?skip=0&take=5,3,0,0
+1654370122529,74,/blog/admin/-371,200,OK,Thread Group 1-1,text,true,,11533,10480,2,2,http://192.168.2.178/blog/admin/,2,0,0
+1654370125569,27,/blog/api/dashboard-374,200,OK,Thread Group 1-1,text,true,,78867,1153,2,2,http://192.168.2.178/blog/api/dashboard,26,0,0
+1654370128434,69,/blog/api/setup-375,200,OK,Thread Group 1-1,text,true,,231,1204,2,2,http://192.168.2.178/blog/api/setup?version=3.2.0.3,69,0,0
+1654370131435,421,/blog/api/newsfeed-373,200,OK,Thread Group 1-1,text,true,,392,1166,2,2,http://192.168.2.178/blog/api/newsfeed?skip=0&take=5,421,0,0
+1654370131503,8,Open Users Tab,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-2,,true,,4840,3546,2,2,null,0,8988,0
+1654370134507,3,/blog/api/users/admin-395,200,OK,Thread Group 1-2,text,true,,717,1155,2,2,http://192.168.2.178/blog/api/users/admin,3,0,0
+1654370137605,2,/blog/api/customfields-396,200,OK,Thread Group 1-2,text,true,,231,1195,2,2,http://192.168.2.178/blog/api/customfields?filter=CustomType+%3D%3D+%22PROFILE%22,2,0,0
+1654370140496,3,/blog/api/users-397,200,OK,Thread Group 1-2,text,true,,3892,1196,2,2,http://192.168.2.178/blog/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,3,0,0
+1654370131857,9,Open Users Tab,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,4840,3546,2,2,null,0,8824,0
+1654370134710,3,/blog/api/users/admin-395,200,OK,Thread Group 1-1,text,true,,717,1155,2,2,http://192.168.2.178/blog/api/users/admin,3,0,0
+1654370137660,3,/blog/api/customfields-396,200,OK,Thread Group 1-1,text,true,,231,1195,2,2,http://192.168.2.178/blog/api/customfields?filter=CustomType+%3D%3D+%22PROFILE%22,3,0,0
+1654370140686,3,/blog/api/users-397,200,OK,Thread Group 1-1,text,true,,3892,1196,2,2,http://192.168.2.178/blog/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,3,0,0
+1654370140500,5,Add User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,554,1518,2,2,null,0,2996,0
+1654370143496,5,/blog/api/users-111,201,Created,Thread Group 1-2,text,true,,554,1518,2,2,http://192.168.2.178/blog/api/users,5,0,0
+1654370140690,4,Add User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,554,1518,2,2,null,0,2922,0
+1654370143612,4,/blog/api/users-111,201,Created,Thread Group 1-1,text,true,,554,1518,2,2,http://192.168.2.178/blog/api/users,4,0,0
+1654370143617,244,Logout,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,273206,11204,2,2,null,0,3073,0
+1654370146689,244,/blog/Account/login.aspx-65,200,OK,Thread Group 1-1,text,true,,273206,11204,2,2,http://192.168.2.178/blog/,2,0,0
+1654370146934,94,Open Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,31754,9371,2,2,null,0,3029,0
+1654370149963,94,/blog-29,200,OK,Thread Group 1-1,text,true,,31754,9371,2,2,http://192.168.2.178/blog,4,0,0
+1654370150057,164,Login,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,49829,30620,2,2,null,0,6047,0
+1654370153072,76,/blog/Account/login.aspx-284,200,OK,Thread Group 1-1,text,true,,6511,2907,2,2,http://192.168.2.178/blog/Account/login.aspx,2,0,0
+1654370156180,88,/blog/Account/login.aspx-93,200,OK,Thread Group 1-1,text,true,,43318,27713,2,2,http://192.168.2.178/blog/,3,0,0
+1654370143502,842,Open Admin Page,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-2,,true,,91645,15169,2,2,null,0,14762,0
+1654370146434,3,/blog/api/packages-372,200,OK,Thread Group 1-2,text,true,,231,1166,2,2,http://192.168.2.178/blog/api/packages?skip=0&take=5,3,0,0
+1654370149484,90,/blog/admin/-371,200,OK,Thread Group 1-2,text,true,,11538,10480,2,2,http://192.168.2.178/blog/admin/,13,0,0
+1654370152480,8,/blog/api/dashboard-374,200,OK,Thread Group 1-2,text,true,,79253,1153,2,2,http://192.168.2.178/blog/api/dashboard,8,0,0
+1654370155442,49,/blog/api/setup-375,200,OK,Thread Group 1-2,text,true,,231,1204,2,2,http://192.168.2.178/blog/api/setup?version=3.2.0.3,49,0,0
+1654370158414,692,/blog/api/newsfeed-373,200,OK,Thread Group 1-2,text,true,,392,1166,2,2,http://192.168.2.178/blog/api/newsfeed?skip=0&take=5,692,0,0
+1654370159107,11,Open Users Tab,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-2,,true,,5750,3546,2,2,null,0,9036,0
+1654370162102,4,/blog/api/users/admin-395,200,OK,Thread Group 1-2,text,true,,717,1155,2,2,http://192.168.2.178/blog/api/users/admin,4,0,0
+1654370165163,3,/blog/api/customfields-396,200,OK,Thread Group 1-2,text,true,,231,1195,2,2,http://192.168.2.178/blog/api/customfields?filter=CustomType+%3D%3D+%22PROFILE%22,3,0,0
+1654370168150,4,/blog/api/users-397,200,OK,Thread Group 1-2,text,true,,4802,1196,2,2,http://192.168.2.178/blog/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,4,0,0
+1654370168155,5,Add User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,554,1521,2,2,null,0,3025,0
+1654370171180,5,/blog/api/users-111,201,Created,Thread Group 1-2,text,true,,554,1521,2,2,http://192.168.2.178/blog/api/users,5,0,0
+1654370156269,742,Open Admin Page,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-1,,true,,91640,15169,2,2,null,0,14866,0
+1654370159209,3,/blog/api/packages-372,200,OK,Thread Group 1-1,text,true,,231,1166,2,2,http://192.168.2.178/blog/api/packages?skip=0&take=5,3,0,0
+1654370162075,109,/blog/admin/-371,200,OK,Thread Group 1-1,text,true,,11533,10480,2,2,http://192.168.2.178/blog/admin/,2,0,0
+1654370165184,7,/blog/api/dashboard-374,200,OK,Thread Group 1-1,text,true,,79253,1153,2,2,http://192.168.2.178/blog/api/dashboard,7,0,0
+1654370168091,23,/blog/api/setup-375,200,OK,Thread Group 1-1,text,true,,231,1204,2,2,http://192.168.2.178/blog/api/setup?version=3.2.0.3,23,0,0
+1654370171277,600,/blog/api/newsfeed-373,200,OK,Thread Group 1-1,text,true,,392,1166,2,2,http://192.168.2.178/blog/api/newsfeed?skip=0&take=5,600,0,0
+1654370171185,225,Logout,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,32091,11204,2,2,null,0,2886,0
+1654370174071,225,/blog/Account/login.aspx-65,200,OK,Thread Group 1-2,text,true,,32091,11204,2,2,http://192.168.2.178/blog/,2,0,0
+1654370174297,239,Open Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,31748,9371,2,2,null,0,3167,0
+1654370177372,239,/blog-29,200,OK,Thread Group 1-2,text,true,,31748,9371,2,2,http://192.168.2.178/blog,7,0,0
+1654370171877,9,Open Users Tab,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,6205,3546,2,2,null,0,9016,0
+1654370175106,4,/blog/api/users/admin-395,200,OK,Thread Group 1-1,text,true,,717,1155,2,2,http://192.168.2.178/blog/api/users/admin,4,0,0
+1654370177951,2,/blog/api/customfields-396,200,OK,Thread Group 1-1,text,true,,231,1195,2,2,http://192.168.2.178/blog/api/customfields?filter=CustomType+%3D%3D+%22PROFILE%22,2,0,0
+1654370180897,3,/blog/api/users-397,200,OK,Thread Group 1-1,text,true,,5257,1196,2,2,http://192.168.2.178/blog/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,3,0,0
+1654370177703,162,Login,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,49780,30628,2,2,null,0,5997,0
+1654370180773,73,/blog/Account/login.aspx-284,200,OK,Thread Group 1-2,text,true,,6511,2907,2,2,http://192.168.2.178/blog/Account/login.aspx,2,0,0
+1654370183772,89,/blog/Account/login.aspx-93,200,OK,Thread Group 1-2,text,true,,43269,27721,2,2,http://192.168.2.178/blog/,3,0,0
+1654370180901,6,Add User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,554,1520,2,2,null,0,3058,0
+1654370183960,6,/blog/api/users-111,201,Created,Thread Group 1-1,text,true,,554,1520,2,2,http://192.168.2.178/blog/api/users,6,0,0
+1654370183967,14,Delete User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,182,1721,2,2,null,0,2893,0
+1654370186860,14,/blog/api/users/processchecked/delete-120,200,OK,Thread Group 1-1,,true,,182,1721,2,2,http://192.168.2.178/blog/api/users/processchecked/delete,14,0,0
+1654370183862,635,Open Admin Page,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-2,,true,,92031,15169,2,2,null,0,14702,0
+1654370186891,3,/blog/api/packages-372,200,OK,Thread Group 1-2,text,true,,231,1166,2,2,http://192.168.2.178/blog/api/packages?skip=0&take=5,3,0,0
+1654370189662,112,/blog/admin/-371,200,OK,Thread Group 1-2,text,true,,11538,10480,2,2,http://192.168.2.178/blog/admin/,6,0,0
+1654370192667,8,/blog/api/dashboard-374,200,OK,Thread Group 1-2,text,true,,79639,1153,2,2,http://192.168.2.178/blog/api/dashboard,8,0,0
+1654370195612,35,/blog/api/setup-375,200,OK,Thread Group 1-2,text,true,,231,1204,2,2,http://192.168.2.178/blog/api/setup?version=3.2.0.3,35,0,0
+1654370198722,477,/blog/api/newsfeed-373,200,OK,Thread Group 1-2,text,true,,392,1166,2,2,http://192.168.2.178/blog/api/newsfeed?skip=0&take=5,477,0,0
+1654370186875,704,Open Admin Page,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-1,,true,,92026,15169,2,2,null,0,15177,0
+1654370189827,3,/blog/api/packages-372,200,OK,Thread Group 1-1,text,true,,231,1166,2,2,http://192.168.2.178/blog/api/packages?skip=0&take=5,3,0,0
+1654370192924,75,/blog/admin/-371,200,OK,Thread Group 1-1,text,true,,11533,10480,2,2,http://192.168.2.178/blog/admin/,2,0,0
+1654370196161,13,/blog/api/dashboard-374,200,OK,Thread Group 1-1,text,true,,79639,1153,2,2,http://192.168.2.178/blog/api/dashboard,11,0,0
+1654370199184,27,/blog/api/setup-375,200,OK,Thread Group 1-1,text,true,,231,1204,2,2,http://192.168.2.178/blog/api/setup?version=3.2.0.3,27,0,0
+1654370202169,586,/blog/api/newsfeed-373,200,OK,Thread Group 1-1,text,true,,392,1166,2,2,http://192.168.2.178/blog/api/newsfeed?skip=0&take=5,586,0,0
+1654370199199,9,Open Users Tab,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-2,,true,,6205,3546,2,2,null,0,9129,0
+1654370202313,4,/blog/api/users/admin-395,200,OK,Thread Group 1-2,text,true,,717,1155,2,2,http://192.168.2.178/blog/api/users/admin,4,0,0
+1654370205263,2,/blog/api/customfields-396,200,OK,Thread Group 1-2,text,true,,231,1195,2,2,http://192.168.2.178/blog/api/customfields?filter=CustomType+%3D%3D+%22PROFILE%22,2,0,0
+1654370208333,3,/blog/api/users-397,200,OK,Thread Group 1-2,text,true,,5257,1196,2,2,http://192.168.2.178/blog/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,3,0,0
+1654370208337,5,Delete User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,182,1722,2,2,null,0,2954,0
+1654370211291,5,/blog/api/users/processchecked/delete-120,200,OK,Thread Group 1-2,,true,,182,1722,2,2,http://192.168.2.178/blog/api/users/processchecked/delete,5,0,0
+1654370202756,8,Open Users Tab,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,5750,3546,2,2,null,0,8982,0
+1654370205807,2,/blog/api/users/admin-395,200,OK,Thread Group 1-1,text,true,,717,1155,2,2,http://192.168.2.178/blog/api/users/admin,2,0,0
+1654370208840,3,/blog/api/customfields-396,200,OK,Thread Group 1-1,text,true,,231,1195,2,2,http://192.168.2.178/blog/api/customfields?filter=CustomType+%3D%3D+%22PROFILE%22,3,0,0
+1654370211742,3,/blog/api/users-397,200,OK,Thread Group 1-1,text,true,,4802,1196,2,2,http://192.168.2.178/blog/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,3,0,0
+1654370211297,3,Delete User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,182,1722,2,2,null,0,3083,0
+1654370214380,3,/blog/api/users/processchecked/delete-120,200,OK,Thread Group 1-2,,true,,182,1722,2,2,http://192.168.2.178/blog/api/users/processchecked/delete,3,0,0
+1654370211746,4,Delete User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,182,1721,2,2,null,0,2964,0
+1654370214710,4,/blog/api/users/processchecked/delete-120,200,OK,Thread Group 1-1,,true,,182,1721,2,2,http://192.168.2.178/blog/api/users/processchecked/delete,4,0,0
+1654370214383,831,Open Admin Page,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-2,,true,,92031,15169,2,2,null,0,14986,0
+1654370217262,2,/blog/api/packages-372,200,OK,Thread Group 1-2,text,true,,231,1166,2,2,http://192.168.2.178/blog/api/packages?skip=0&take=5,2,0,0
+1654370220329,93,/blog/admin/-371,200,OK,Thread Group 1-2,text,true,,11538,10480,2,2,http://192.168.2.178/blog/admin/,3,0,0
+1654370223533,10,/blog/api/dashboard-374,200,OK,Thread Group 1-2,text,true,,79639,1153,2,2,http://192.168.2.178/blog/api/dashboard,9,0,0
+1654370226479,73,/blog/api/setup-375,200,OK,Thread Group 1-2,text,true,,231,1204,2,2,http://192.168.2.178/blog/api/setup?version=3.2.0.3,73,0,0
+1654370229546,653,/blog/api/newsfeed-373,200,OK,Thread Group 1-2,text,true,,392,1166,2,2,http://192.168.2.178/blog/api/newsfeed?skip=0&take=5,653,0,0
+1654370214715,1221,Open Admin Page,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-1,,true,,92026,15169,2,2,null,0,14991,0
+1654370217611,2,/blog/api/packages-372,200,OK,Thread Group 1-1,text,true,,231,1166,2,2,http://192.168.2.178/blog/api/packages?skip=0&take=5,2,0,0
+1654370220609,76,/blog/admin/-371,200,OK,Thread Group 1-1,text,true,,11533,10480,2,2,http://192.168.2.178/blog/admin/,3,0,0
+1654370223758,11,/blog/api/dashboard-374,200,OK,Thread Group 1-1,text,true,,79639,1153,2,2,http://192.168.2.178/blog/api/dashboard,10,0,0
+1654370226697,31,/blog/api/setup-375,200,OK,Thread Group 1-1,text,true,,231,1204,2,2,http://192.168.2.178/blog/api/setup?version=3.2.0.3,31,0,0
+1654370229825,1101,/blog/api/newsfeed-373,200,OK,Thread Group 1-1,text,true,,392,1166,2,2,http://192.168.2.178/blog/api/newsfeed?skip=0&take=5,1101,0,0
+1654370230199,10,Open Users Tab,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-2,,true,,5295,3546,2,2,null,0,9216,0
+1654370233208,3,/blog/api/users/admin-395,200,OK,Thread Group 1-2,text,true,,717,1155,2,2,http://192.168.2.178/blog/api/users/admin,3,0,0
+1654370236257,4,/blog/api/customfields-396,200,OK,Thread Group 1-2,text,true,,231,1195,2,2,http://192.168.2.178/blog/api/customfields?filter=CustomType+%3D%3D+%22PROFILE%22,4,0,0
+1654370239422,3,/blog/api/users-397,200,OK,Thread Group 1-2,text,true,,4347,1196,2,2,http://192.168.2.178/blog/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,3,0,0
+1654370230926,8,Open Users Tab,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,5295,3546,2,2,null,0,8948,0
+1654370233838,3,/blog/api/users/admin-395,200,OK,Thread Group 1-1,text,true,,717,1155,2,2,http://192.168.2.178/blog/api/users/admin,3,0,0
+1654370236793,2,/blog/api/customfields-396,200,OK,Thread Group 1-1,text,true,,231,1195,2,2,http://192.168.2.178/blog/api/customfields?filter=CustomType+%3D%3D+%22PROFILE%22,2,0,0
+1654370239879,3,/blog/api/users-397,200,OK,Thread Group 1-1,text,true,,4347,1196,2,2,http://192.168.2.178/blog/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,3,0,0
+1654370239426,5,Add User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,554,1519,2,2,null,0,3165,0
+1654370242591,5,/blog/api/users-111,201,Created,Thread Group 1-2,text,true,,554,1519,2,2,http://192.168.2.178/blog/api/users,5,0,0
+1654370239883,4,Add User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,554,1521,2,2,null,0,2868,0
+1654370242751,4,/blog/api/users-111,201,Created,Thread Group 1-1,text,true,,554,1521,2,2,http://192.168.2.178/blog/api/users,4,0,0
+1654370242597,591,Open Admin Page,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-2,,true,,92417,15169,2,2,null,0,14987,1
+1654370245675,4,/blog/api/packages-372,200,OK,Thread Group 1-2,text,true,,231,1166,2,2,http://192.168.2.178/blog/api/packages?skip=0&take=5,4,0,1
+1654370248573,73,/blog/admin/-371,200,OK,Thread Group 1-2,text,true,,11538,10480,2,2,http://192.168.2.178/blog/admin/,2,0,0
+1654370251767,9,/blog/api/dashboard-374,200,OK,Thread Group 1-2,text,true,,80025,1153,2,2,http://192.168.2.178/blog/api/dashboard,8,0,0
+1654370254692,67,/blog/api/setup-375,200,OK,Thread Group 1-2,text,true,,231,1204,2,2,http://192.168.2.178/blog/api/setup?version=3.2.0.3,67,0,0
+1654370257737,438,/blog/api/newsfeed-373,200,OK,Thread Group 1-2,text,true,,392,1166,2,2,http://192.168.2.178/blog/api/newsfeed?skip=0&take=5,438,0,0
+1654370242756,697,Open Admin Page,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-1,,true,,92412,15169,2,2,null,0,15170,0
+1654370245799,2,/blog/api/packages-372,200,OK,Thread Group 1-1,text,true,,231,1166,2,2,http://192.168.2.178/blog/api/packages?skip=0&take=5,2,0,0
+1654370248888,134,/blog/admin/-371,200,OK,Thread Group 1-1,text,true,,11533,10480,2,2,http://192.168.2.178/blog/admin/,2,0,0
+1654370251964,8,/blog/api/dashboard-374,200,OK,Thread Group 1-1,text,true,,80025,1153,2,2,http://192.168.2.178/blog/api/dashboard,7,0,0
+1654370254935,84,/blog/api/setup-375,200,OK,Thread Group 1-1,text,true,,231,1204,2,2,http://192.168.2.178/blog/api/setup?version=3.2.0.3,84,0,0
+1654370258154,469,/blog/api/newsfeed-373,200,OK,Thread Group 1-1,text,true,,392,1166,2,2,http://192.168.2.178/blog/api/newsfeed?skip=0&take=5,469,0,0
+1654370258179,10,Open Users Tab,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-2,,true,,6205,3546,2,2,null,0,8826,0
+1654370261078,5,/blog/api/users/admin-395,200,OK,Thread Group 1-2,text,true,,717,1155,2,2,http://192.168.2.178/blog/api/users/admin,5,0,0
+1654370264000,2,/blog/api/customfields-396,200,OK,Thread Group 1-2,text,true,,231,1195,2,2,http://192.168.2.178/blog/api/customfields?filter=CustomType+%3D%3D+%22PROFILE%22,2,0,0
+1654370267012,3,/blog/api/users-397,200,OK,Thread Group 1-2,text,true,,5257,1196,2,2,http://192.168.2.178/blog/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,3,0,0
+1654370258623,15,Open Users Tab,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,6205,3546,2,2,null,0,8804,0
+1654370261644,3,/blog/api/users/admin-395,200,OK,Thread Group 1-1,text,true,,717,1155,2,2,http://192.168.2.178/blog/api/users/admin,3,0,0
+1654370264580,9,/blog/api/customfields-396,200,OK,Thread Group 1-1,text,true,,231,1195,2,2,http://192.168.2.178/blog/api/customfields?filter=CustomType+%3D%3D+%22PROFILE%22,9,0,0
+1654370267438,3,/blog/api/users-397,200,OK,Thread Group 1-1,text,true,,5257,1196,2,2,http://192.168.2.178/blog/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,3,0,0
+1654370267016,5,Delete User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,182,1722,2,2,null,0,2962,0
+1654370269978,5,/blog/api/users/processchecked/delete-120,200,OK,Thread Group 1-2,,true,,182,1722,2,2,http://192.168.2.178/blog/api/users/processchecked/delete,5,0,0
+1654370267442,8,Add User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,554,1521,2,2,null,0,3247,0
+1654370270689,8,/blog/api/users-111,201,Created,Thread Group 1-1,text,true,,554,1521,2,2,http://192.168.2.178/blog/api/users,8,0,0
+1654370269984,3,Delete User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,182,1722,2,2,null,0,2918,0
+1654370272902,3,/blog/api/users/processchecked/delete-120,200,OK,Thread Group 1-2,,true,,182,1722,2,2,http://192.168.2.178/blog/api/users/processchecked/delete,3,0,0
+1654370270698,4,Delete User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,182,1721,2,2,null,0,3062,0
+1654370273760,4,/blog/api/users/processchecked/delete-120,200,OK,Thread Group 1-1,,true,,182,1721,2,2,http://192.168.2.178/blog/api/users/processchecked/delete,4,0,0
+1654370272905,632,Open Admin Page,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-2,,true,,92610,15169,2,2,null,0,15090,0
+1654370275934,3,/blog/api/packages-372,200,OK,Thread Group 1-2,text,true,,231,1166,2,2,http://192.168.2.178/blog/api/packages?skip=0&take=5,3,0,0
+1654370278958,108,/blog/admin/-371,200,OK,Thread Group 1-2,text,true,,11538,10480,2,2,http://192.168.2.178/blog/admin/,6,0,0
+1654370282103,44,/blog/api/dashboard-374,200,OK,Thread Group 1-2,text,true,,80218,1153,2,2,http://192.168.2.178/blog/api/dashboard,28,0,0
+1654370285130,55,/blog/api/setup-375,200,OK,Thread Group 1-2,text,true,,231,1204,2,2,http://192.168.2.178/blog/api/setup?version=3.2.0.3,55,0,0
+1654370288205,422,/blog/api/newsfeed-373,200,OK,Thread Group 1-2,text,true,,392,1166,2,2,http://192.168.2.178/blog/api/newsfeed?skip=0&take=5,422,0,0
+1654370273765,653,Open Admin Page,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-1,,true,,92605,15169,2,2,null,0,14556,0
+1654370276592,2,/blog/api/packages-372,200,OK,Thread Group 1-1,text,true,,231,1166,2,2,http://192.168.2.178/blog/api/packages?skip=0&take=5,2,0,0
+1654370279636,72,/blog/admin/-371,200,OK,Thread Group 1-1,text,true,,11533,10480,2,2,http://192.168.2.178/blog/admin/,1,0,0
+1654370282702,10,/blog/api/dashboard-374,200,OK,Thread Group 1-1,text,true,,80218,1153,2,2,http://192.168.2.178/blog/api/dashboard,9,0,0
+1654370285536,27,/blog/api/setup-375,200,OK,Thread Group 1-1,text,true,,231,1204,2,2,http://192.168.2.178/blog/api/setup?version=3.2.0.3,27,0,0
+1654370288431,542,/blog/api/newsfeed-373,200,OK,Thread Group 1-1,text,true,,392,1166,2,2,http://192.168.2.178/blog/api/newsfeed?skip=0&take=5,542,0,0
+1654370288627,11,Open Users Tab,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-2,,true,,5750,3546,2,2,null,0,8972,0
+1654370291645,4,/blog/api/users/admin-395,200,OK,Thread Group 1-2,text,true,,717,1155,2,2,http://192.168.2.178/blog/api/users/admin,4,0,0
+1654370294517,3,/blog/api/customfields-396,200,OK,Thread Group 1-2,text,true,,231,1195,2,2,http://192.168.2.178/blog/api/customfields?filter=CustomType+%3D%3D+%22PROFILE%22,3,0,0
+1654370297605,4,/blog/api/users-397,200,OK,Thread Group 1-2,text,true,,4802,1196,2,2,http://192.168.2.178/blog/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,4,0,0
+1654370288973,7,Open Users Tab,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,5750,3546,2,2,null,0,8776,0
+1654370292081,2,/blog/api/users/admin-395,200,OK,Thread Group 1-1,text,true,,717,1155,2,2,http://192.168.2.178/blog/api/users/admin,2,0,0
+1654370294975,2,/blog/api/customfields-396,200,OK,Thread Group 1-1,text,true,,231,1195,2,2,http://192.168.2.178/blog/api/customfields?filter=CustomType+%3D%3D+%22PROFILE%22,2,0,0
+1654370297753,3,/blog/api/users-397,200,OK,Thread Group 1-1,text,true,,4802,1196,2,2,http://192.168.2.178/blog/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,3,0,0
+1654370297610,5,Delete User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,182,1722,2,2,null,0,3087,0
+1654370300696,5,/blog/api/users/processchecked/delete-120,200,OK,Thread Group 1-2,,true,,182,1722,2,2,http://192.168.2.178/blog/api/users/processchecked/delete,5,0,0
+1654370297757,4,Add User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,554,1520,2,2,null,0,3135,0
+1654370300891,4,/blog/api/users-111,201,Created,Thread Group 1-1,text,true,,554,1520,2,2,http://192.168.2.178/blog/api/users,4,0,0
+1654370300701,790,Open Admin Page,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-2,,true,,92803,15169,2,2,null,0,14763,0
+1654370303619,2,/blog/api/packages-372,200,OK,Thread Group 1-2,text,true,,231,1166,2,2,http://192.168.2.178/blog/api/packages?skip=0&take=5,2,0,0
+1654370306452,72,/blog/admin/-371,200,OK,Thread Group 1-2,text,true,,11538,10480,2,2,http://192.168.2.178/blog/admin/,1,0,0
+1654370309480,9,/blog/api/dashboard-374,200,OK,Thread Group 1-2,text,true,,80411,1153,2,2,http://192.168.2.178/blog/api/dashboard,8,0,0
+1654370312491,23,/blog/api/setup-375,200,OK,Thread Group 1-2,text,true,,231,1204,2,2,http://192.168.2.178/blog/api/setup?version=3.2.0.3,23,0,0
+1654370315570,684,/blog/api/newsfeed-373,200,OK,Thread Group 1-2,text,true,,392,1166,2,2,http://192.168.2.178/blog/api/newsfeed?skip=0&take=5,684,0,0
+1654370300895,1028,Open Admin Page,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-1,,true,,92798,15169,2,2,null,0,14589,0
+1654370303847,3,/blog/api/packages-372,200,OK,Thread Group 1-1,text,true,,231,1166,2,2,http://192.168.2.178/blog/api/packages?skip=0&take=5,2,0,0
+1654370306953,73,/blog/admin/-371,200,OK,Thread Group 1-1,text,true,,11533,10480,2,2,http://192.168.2.178/blog/admin/,2,0,0
+1654370309814,9,/blog/api/dashboard-374,200,OK,Thread Group 1-1,text,true,,80411,1153,2,2,http://192.168.2.178/blog/api/dashboard,8,0,0
+1654370312707,27,/blog/api/setup-375,200,OK,Thread Group 1-1,text,true,,231,1204,2,2,http://192.168.2.178/blog/api/setup?version=3.2.0.3,27,0,0
+1654370315596,916,/blog/api/newsfeed-373,200,OK,Thread Group 1-1,text,true,,392,1166,2,2,http://192.168.2.178/blog/api/newsfeed?skip=0&take=5,916,0,0
+1654370316512,16,Open Users Tab,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,5750,3546,2,2,null,0,8908,0
+1654370319402,6,/blog/api/users/admin-395,200,OK,Thread Group 1-1,text,true,,717,1155,2,2,http://192.168.2.178/blog/api/users/admin,6,0,0
+1654370322424,7,/blog/api/customfields-396,200,OK,Thread Group 1-1,text,true,,231,1195,2,2,http://192.168.2.178/blog/api/customfields?filter=CustomType+%3D%3D+%22PROFILE%22,7,0,0
+1654370325433,3,/blog/api/users-397,200,OK,Thread Group 1-1,text,true,,4802,1196,2,2,http://192.168.2.178/blog/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,3,0,0
+1654370316254,9,Open Users Tab,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-2,,true,,5750,3546,2,2,null,0,9205,0
+1654370319247,4,/blog/api/users/admin-395,200,OK,Thread Group 1-2,text,true,,717,1155,2,2,http://192.168.2.178/blog/api/users/admin,4,0,0
+1654370322401,2,/blog/api/customfields-396,200,OK,Thread Group 1-2,text,true,,231,1195,2,2,http://192.168.2.178/blog/api/customfields?filter=CustomType+%3D%3D+%22PROFILE%22,2,0,0
+1654370325466,3,/blog/api/users-397,200,OK,Thread Group 1-2,text,true,,4802,1196,2,2,http://192.168.2.178/blog/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,3,0,0
+1654370325470,5,Delete User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,182,1722,2,2,null,0,2971,0
+1654370328441,5,/blog/api/users/processchecked/delete-120,200,OK,Thread Group 1-2,,true,,182,1722,2,2,http://192.168.2.178/blog/api/users/processchecked/delete,5,0,0
+1654370325437,4,Delete User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,182,1721,2,2,null,0,3169,0
+1654370328606,4,/blog/api/users/processchecked/delete-120,200,OK,Thread Group 1-1,,true,,182,1721,2,2,http://192.168.2.178/blog/api/users/processchecked/delete,4,0,0
+1654370328610,827,Open Admin Page,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-1,,true,,92798,15169,2,2,null,0,15012,0
+1654370331486,2,/blog/api/packages-372,200,OK,Thread Group 1-1,text,true,,231,1166,2,2,http://192.168.2.178/blog/api/packages?skip=0&take=5,2,0,0
+1654370334561,107,/blog/admin/-371,200,OK,Thread Group 1-1,text,true,,11533,10480,2,2,http://192.168.2.178/blog/admin/,2,0,0
+1654370337619,8,/blog/api/dashboard-374,200,OK,Thread Group 1-1,text,true,,80411,1153,2,2,http://192.168.2.178/blog/api/dashboard,7,0,0
+1654370340593,89,/blog/api/setup-375,200,OK,Thread Group 1-1,text,true,,231,1204,2,2,http://192.168.2.178/blog/api/setup?version=3.2.0.3,89,0,0
+1654370343828,621,/blog/api/newsfeed-373,200,OK,Thread Group 1-1,text,true,,392,1166,2,2,http://192.168.2.178/blog/api/newsfeed?skip=0&take=5,621,0,0
+1654370328446,1395,Open Admin Page,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-2,,true,,92803,15169,2,2,null,0,15174,0
+1654370331477,2,/blog/api/packages-372,200,OK,Thread Group 1-2,text,true,,231,1166,2,2,http://192.168.2.178/blog/api/packages?skip=0&take=5,2,0,0
+1654370334602,75,/blog/admin/-371,200,OK,Thread Group 1-2,text,true,,11538,10480,2,2,http://192.168.2.178/blog/admin/,2,0,0
+1654370337711,9,/blog/api/dashboard-374,200,OK,Thread Group 1-2,text,true,,80411,1153,2,2,http://192.168.2.178/blog/api/dashboard,8,0,0
+1654370340809,23,/blog/api/setup-375,200,OK,Thread Group 1-2,text,true,,231,1204,2,2,http://192.168.2.178/blog/api/setup?version=3.2.0.3,23,0,0
+1654370343729,1286,/blog/api/newsfeed-373,200,OK,Thread Group 1-2,text,true,,392,1166,2,2,http://192.168.2.178/blog/api/newsfeed?skip=0&take=5,1286,0,0
+1654370344449,12,Open Users Tab,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,4840,3546,2,2,null,0,8859,0
+1654370347405,7,/blog/api/users/admin-395,200,OK,Thread Group 1-1,text,true,,717,1155,2,2,http://192.168.2.178/blog/api/users/admin,7,0,0
+1654370350232,2,/blog/api/customfields-396,200,OK,Thread Group 1-1,text,true,,231,1195,2,2,http://192.168.2.178/blog/api/customfields?filter=CustomType+%3D%3D+%22PROFILE%22,2,0,0
+1654370353316,3,/blog/api/users-397,200,OK,Thread Group 1-1,text,true,,3892,1196,2,2,http://192.168.2.178/blog/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,3,0,0
+1654370345015,9,Open Users Tab,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-2,,true,,4840,3546,2,2,null,0,8931,0
+1654370348230,3,/blog/api/users/admin-395,200,OK,Thread Group 1-2,text,true,,717,1155,2,2,http://192.168.2.178/blog/api/users/admin,3,0,0
+1654370351015,3,/blog/api/customfields-396,200,OK,Thread Group 1-2,text,true,,231,1195,2,2,http://192.168.2.178/blog/api/customfields?filter=CustomType+%3D%3D+%22PROFILE%22,3,0,0
+1654370353952,3,/blog/api/users-397,200,OK,Thread Group 1-2,text,true,,3892,1196,2,2,http://192.168.2.178/blog/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,3,0,0
+1654370353320,4,Add User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,554,1520,2,2,null,0,3140,0
+1654370356461,4,/blog/api/users-111,201,Created,Thread Group 1-1,text,true,,554,1520,2,2,http://192.168.2.178/blog/api/users,4,0,0
+1654370353956,5,Add User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,554,1520,2,2,null,0,3134,0
+1654370357090,5,/blog/api/users-111,201,Created,Thread Group 1-2,text,true,,554,1520,2,2,http://192.168.2.178/blog/api/users,5,0,0
+1654370356466,623,Open Admin Page,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-1,,true,,93184,15169,2,2,null,0,15064,0
+1654370359463,2,/blog/api/packages-372,200,OK,Thread Group 1-1,text,true,,231,1166,2,2,http://192.168.2.178/blog/api/packages?skip=0&take=5,2,0,0
+1654370362362,73,/blog/admin/-371,200,OK,Thread Group 1-1,text,true,,11533,10480,2,2,http://192.168.2.178/blog/admin/,2,0,0
+1654370365461,9,/blog/api/dashboard-374,200,OK,Thread Group 1-1,text,true,,80797,1153,2,2,http://192.168.2.178/blog/api/dashboard,8,0,0
+1654370368487,25,/blog/api/setup-375,200,OK,Thread Group 1-1,text,true,,231,1204,2,2,http://192.168.2.178/blog/api/setup?version=3.2.0.3,25,0,0
+1654370371637,514,/blog/api/newsfeed-373,200,OK,Thread Group 1-1,text,true,,392,1166,2,2,http://192.168.2.178/blog/api/newsfeed?skip=0&take=5,514,0,0
+1654370357096,1078,Open Admin Page,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-2,,true,,93189,15169,2,2,null,0,14986,0
+1654370360065,2,/blog/api/packages-372,200,OK,Thread Group 1-2,text,true,,231,1166,2,2,http://192.168.2.178/blog/api/packages?skip=0&take=5,2,0,0
+1654370363135,117,/blog/admin/-371,200,OK,Thread Group 1-2,text,true,,11538,10480,2,2,http://192.168.2.178/blog/admin/,2,0,0
+1654370366237,8,/blog/api/dashboard-374,200,OK,Thread Group 1-2,text,true,,80797,1153,2,2,http://192.168.2.178/blog/api/dashboard,7,0,0
+1654370369365,92,/blog/api/setup-375,200,OK,Thread Group 1-2,text,true,,231,1204,2,2,http://192.168.2.178/blog/api/setup?version=3.2.0.3,91,0,0
+1654370372300,859,/blog/api/newsfeed-373,200,OK,Thread Group 1-2,text,true,,392,1166,2,2,http://192.168.2.178/blog/api/newsfeed?skip=0&take=5,859,0,0
+1654370372152,11,Open Users Tab,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,5750,3546,2,2,null,0,8983,0
+1654370375086,5,/blog/api/users/admin-395,200,OK,Thread Group 1-1,text,true,,717,1155,2,2,http://192.168.2.178/blog/api/users/admin,5,0,0
+1654370378024,3,/blog/api/customfields-396,200,OK,Thread Group 1-1,text,true,,231,1195,2,2,http://192.168.2.178/blog/api/customfields?filter=CustomType+%3D%3D+%22PROFILE%22,2,0,0
+1654370381143,3,/blog/api/users-397,200,OK,Thread Group 1-1,text,true,,4802,1196,2,2,http://192.168.2.178/blog/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,3,0,0
+1654370373160,8,Open Users Tab,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-2,,true,,5750,3546,2,2,null,0,9223,0
+1654370376207,3,/blog/api/users/admin-395,200,OK,Thread Group 1-2,text,true,,717,1155,2,2,http://192.168.2.178/blog/api/users/admin,3,0,0
+1654370379466,2,/blog/api/customfields-396,200,OK,Thread Group 1-2,text,true,,231,1195,2,2,http://192.168.2.178/blog/api/customfields?filter=CustomType+%3D%3D+%22PROFILE%22,2,0,0
+1654370382387,3,/blog/api/users-397,200,OK,Thread Group 1-2,text,true,,4802,1196,2,2,http://192.168.2.178/blog/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,3,0,0
+1654370381147,9,Add User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,554,1518,2,2,null,0,2986,0
+1654370384132,9,/blog/api/users-111,201,Created,Thread Group 1-1,text,true,,554,1518,2,2,http://192.168.2.178/blog/api/users,9,0,0
+1654370382391,5,Add User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,554,1521,2,2,null,0,2921,0
+1654370385312,5,/blog/api/users-111,201,Created,Thread Group 1-2,text,true,,554,1521,2,2,http://192.168.2.178/blog/api/users,5,0,0
+1654370384142,698,Open Admin Page,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-1,,true,,93570,15169,2,2,null,0,15099,0
+1654370387240,3,/blog/api/packages-372,200,OK,Thread Group 1-1,text,true,,231,1166,2,2,http://192.168.2.178/blog/api/packages?skip=0&take=5,3,0,0
+1654370390242,73,/blog/admin/-371,200,OK,Thread Group 1-1,text,true,,11533,10480,2,2,http://192.168.2.178/blog/admin/,2,0,0
+1654370393246,9,/blog/api/dashboard-374,200,OK,Thread Group 1-1,text,true,,81183,1153,2,2,http://192.168.2.178/blog/api/dashboard,8,0,0
+1654370396361,147,/blog/api/setup-375,200,OK,Thread Group 1-1,text,true,,231,1204,2,2,http://192.168.2.178/blog/api/setup?version=3.2.0.3,147,0,0
+1654370399473,466,/blog/api/newsfeed-373,200,OK,Thread Group 1-1,text,true,,392,1166,2,2,http://192.168.2.178/blog/api/newsfeed?skip=0&take=5,466,0,0
+1654370385317,617,Open Admin Page,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-2,,true,,93575,15169,2,2,null,0,14540,0
+1654370388329,2,/blog/api/packages-372,200,OK,Thread Group 1-2,text,true,,231,1166,2,2,http://192.168.2.178/blog/api/packages?skip=0&take=5,2,0,0
+1654370391172,74,/blog/admin/-371,200,OK,Thread Group 1-2,text,true,,11538,10480,2,2,http://192.168.2.178/blog/admin/,2,0,0
+1654370394122,8,/blog/api/dashboard-374,200,OK,Thread Group 1-2,text,true,,81183,1153,2,2,http://192.168.2.178/blog/api/dashboard,7,0,0
+1654370396969,20,/blog/api/setup-375,200,OK,Thread Group 1-2,text,true,,231,1204,2,2,http://192.168.2.178/blog/api/setup?version=3.2.0.3,20,0,0
+1654370399961,513,/blog/api/newsfeed-373,200,OK,Thread Group 1-2,text,true,,392,1166,2,2,http://192.168.2.178/blog/api/newsfeed?skip=0&take=5,513,0,0
+1654370399939,24,Open Users Tab,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,6660,3546,2,2,null,0,8774,0
+1654370402834,5,/blog/api/users/admin-395,200,OK,Thread Group 1-1,text,true,,717,1155,2,2,http://192.168.2.178/blog/api/users/admin,5,0,0
+1654370405816,16,/blog/api/customfields-396,200,OK,Thread Group 1-1,text,true,,231,1195,2,2,http://192.168.2.178/blog/api/customfields?filter=CustomType+%3D%3D+%22PROFILE%22,16,0,0
+1654370408734,3,/blog/api/users-397,200,OK,Thread Group 1-1,text,true,,5712,1196,2,2,http://192.168.2.178/blog/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,3,0,0
+1654370400474,8,Open Users Tab,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-2,,true,,6660,3546,2,2,null,0,8895,0
+1654370403424,2,/blog/api/users/admin-395,200,OK,Thread Group 1-2,text,true,,717,1155,2,2,http://192.168.2.178/blog/api/users/admin,2,0,0
+1654370406526,3,/blog/api/customfields-396,200,OK,Thread Group 1-2,text,true,,231,1195,2,2,http://192.168.2.178/blog/api/customfields?filter=CustomType+%3D%3D+%22PROFILE%22,3,0,0
+1654370409373,3,/blog/api/users-397,200,OK,Thread Group 1-2,text,true,,5712,1196,2,2,http://192.168.2.178/blog/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,3,0,0
+1654370408738,6,Add User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,554,1520,2,2,null,0,2941,0
+1654370411677,6,/blog/api/users-111,201,Created,Thread Group 1-1,text,true,,554,1520,2,2,http://192.168.2.178/blog/api/users,6,0,0
+1654370409377,15,Add User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,554,1521,2,2,null,0,2869,0
+1654370412246,15,/blog/api/users-111,201,Created,Thread Group 1-2,text,true,,554,1521,2,2,http://192.168.2.178/blog/api/users,15,0,0
+1654370411684,5,Delete User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,182,1721,2,2,null,0,2855,0
+1654370414540,5,/blog/api/users/processchecked/delete-120,200,OK,Thread Group 1-1,,true,,182,1721,2,2,http://192.168.2.178/blog/api/users/processchecked/delete,5,0,0
+1654370412262,5,Delete User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,182,1722,2,2,null,0,3034,0
+1654370415296,5,/blog/api/users/processchecked/delete-120,200,OK,Thread Group 1-2,,true,,182,1722,2,2,http://192.168.2.178/blog/api/users/processchecked/delete,5,0,0
+1654370414545,832,Open Admin Page,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-1,,true,,93956,15169,2,2,null,0,15084,0
+1654370417582,2,/blog/api/packages-372,200,OK,Thread Group 1-1,text,true,,231,1166,2,2,http://192.168.2.178/blog/api/packages?skip=0&take=5,2,0,0
+1654370420651,154,/blog/admin/-371,200,OK,Thread Group 1-1,text,true,,11533,10480,2,2,http://192.168.2.178/blog/admin/,1,0,0
+1654370423815,7,/blog/api/dashboard-374,200,OK,Thread Group 1-1,text,true,,81569,1153,2,2,http://192.168.2.178/blog/api/dashboard,7,0,0
+1654370426781,106,/blog/api/setup-375,200,OK,Thread Group 1-1,text,true,,231,1204,2,2,http://192.168.2.178/blog/api/setup?version=3.2.0.3,106,0,0
+1654370429898,563,/blog/api/newsfeed-373,200,OK,Thread Group 1-1,text,true,,392,1166,2,2,http://192.168.2.178/blog/api/newsfeed?skip=0&take=5,563,0,0
+1654370415302,811,Open Admin Page,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-2,,true,,93961,15169,2,2,null,0,15431,0
+1654370418389,2,/blog/api/packages-372,200,OK,Thread Group 1-2,text,true,,231,1166,2,2,http://192.168.2.178/blog/api/packages?skip=0&take=5,2,0,0
+1654370421319,86,/blog/admin/-371,200,OK,Thread Group 1-2,text,true,,11538,10480,2,2,http://192.168.2.178/blog/admin/,1,0,0
+1654370424587,9,/blog/api/dashboard-374,200,OK,Thread Group 1-2,text,true,,81569,1153,2,2,http://192.168.2.178/blog/api/dashboard,9,0,0
+1654370427633,117,/blog/api/setup-375,200,OK,Thread Group 1-2,text,true,,231,1204,2,2,http://192.168.2.178/blog/api/setup?version=3.2.0.3,117,0,0
+1654370430947,597,/blog/api/newsfeed-373,200,OK,Thread Group 1-2,text,true,,392,1166,2,2,http://192.168.2.178/blog/api/newsfeed?skip=0&take=5,597,0,0
+1654370430461,10,Open Users Tab,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,6660,3546,2,2,null,0,9072,0
+1654370433563,4,/blog/api/users/admin-395,200,OK,Thread Group 1-1,text,true,,717,1155,2,2,http://192.168.2.178/blog/api/users/admin,4,0,0
+1654370436522,2,/blog/api/customfields-396,200,OK,Thread Group 1-1,text,true,,231,1195,2,2,http://192.168.2.178/blog/api/customfields?filter=CustomType+%3D%3D+%22PROFILE%22,2,0,0
+1654370439538,4,/blog/api/users-397,200,OK,Thread Group 1-1,text,true,,5712,1196,2,2,http://192.168.2.178/blog/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,4,0,0
+1654370431544,9,Open Users Tab,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-2,,true,,6660,3546,2,2,null,0,9080,0
+1654370434619,3,/blog/api/users/admin-395,200,OK,Thread Group 1-2,text,true,,717,1155,2,2,http://192.168.2.178/blog/api/users/admin,3,0,0
+1654370437518,3,/blog/api/customfields-396,200,OK,Thread Group 1-2,text,true,,231,1195,2,2,http://192.168.2.178/blog/api/customfields?filter=CustomType+%3D%3D+%22PROFILE%22,3,0,0
+1654370440628,3,/blog/api/users-397,200,OK,Thread Group 1-2,text,true,,5712,1196,2,2,http://192.168.2.178/blog/api/users?filter=1+%3D%3D+1&order=UserName&skip=0&take=0,3,0,0
+1654370439543,5,Delete User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,182,1721,2,2,null,0,2970,0
+1654370442513,5,/blog/api/users/processchecked/delete-120,200,OK,Thread Group 1-1,,true,,182,1721,2,2,http://192.168.2.178/blog/api/users/processchecked/delete,5,0,0
+1654370440632,4,Add User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,554,1520,2,2,null,0,2816,0
+1654370443448,4,/blog/api/users-111,201,Created,Thread Group 1-2,text,true,,554,1520,2,2,http://192.168.2.178/blog/api/users,4,0,0
+1654370443452,0,Delete User,,,Thread Group 1-2,,true,,0,0,2,2,null,0,0,0
+1654370442518,3,Delete User,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,182,1721,1,1,null,0,2986,0
+1654370445505,3,/blog/api/users/processchecked/delete-120,200,OK,Thread Group 1-1,,true,,182,1721,1,1,http://192.168.2.178/blog/api/users/processchecked/delete,3,0,0
+1654370445508,0,Logout,,,Thread Group 1-1,,true,,0,0,1,1,null,0,0,0
