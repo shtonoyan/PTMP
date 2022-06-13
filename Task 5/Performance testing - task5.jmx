@@ -516,9 +516,9 @@
                   </elementProp>
                 </collectionProp>
               </elementProp>
-              <stringProp name="HTTPSampler.domain">${DOMAIN}</stringProp>
+              <stringProp name="HTTPSampler.domain"></stringProp>
               <stringProp name="HTTPSampler.port"></stringProp>
-              <stringProp name="HTTPSampler.protocol">${PROTOCOL}</stringProp>
+              <stringProp name="HTTPSampler.protocol"></stringProp>
               <stringProp name="HTTPSampler.contentEncoding"></stringProp>
               <stringProp name="HTTPSampler.path">/blog/admin/app/editor/editpost.cshtml</stringProp>
               <stringProp name="HTTPSampler.method">GET</stringProp>
@@ -565,9 +565,9 @@
               <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
                 <collectionProp name="Arguments.arguments"/>
               </elementProp>
-              <stringProp name="HTTPSampler.domain">${DOMAIN}</stringProp>
+              <stringProp name="HTTPSampler.domain"></stringProp>
               <stringProp name="HTTPSampler.port"></stringProp>
-              <stringProp name="HTTPSampler.protocol">${PROTOCOL}</stringProp>
+              <stringProp name="HTTPSampler.protocol"></stringProp>
               <stringProp name="HTTPSampler.contentEncoding"></stringProp>
               <stringProp name="HTTPSampler.path">/blog/api/posts/${POST_ID_g1}</stringProp>
               <stringProp name="HTTPSampler.method">GET</stringProp>
@@ -644,6 +644,7 @@
           </TransactionController>
           <hashTree>
             <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/blog/api/posts/update/foo-214" enabled="true">
+              <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
               <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
                 <collectionProp name="Arguments.arguments">
                   <elementProp name="" elementType="HTTPArgument">
@@ -653,10 +654,9 @@
                   </elementProp>
                 </collectionProp>
               </elementProp>
-              <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
-              <stringProp name="HTTPSampler.domain">${DOMAIN}</stringProp>
+              <stringProp name="HTTPSampler.domain"></stringProp>
               <stringProp name="HTTPSampler.port"></stringProp>
-              <stringProp name="HTTPSampler.protocol">${PROTOCOL}</stringProp>
+              <stringProp name="HTTPSampler.protocol"></stringProp>
               <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
               <stringProp name="HTTPSampler.path">/blog/api/posts/update/foo</stringProp>
               <stringProp name="HTTPSampler.method">PUT</stringProp>
@@ -1239,9 +1239,9 @@
                     </elementProp>
                   </collectionProp>
                 </elementProp>
-                <stringProp name="HTTPSampler.domain">${DOMAIN}</stringProp>
+                <stringProp name="HTTPSampler.domain"></stringProp>
                 <stringProp name="HTTPSampler.port"></stringProp>
-                <stringProp name="HTTPSampler.protocol">${PROTOCOL}</stringProp>
+                <stringProp name="HTTPSampler.protocol"></stringProp>
                 <stringProp name="HTTPSampler.contentEncoding"></stringProp>
                 <stringProp name="HTTPSampler.path">/blog/admin/app/editor/editpost.cshtml</stringProp>
                 <stringProp name="HTTPSampler.method">GET</stringProp>
@@ -1288,9 +1288,9 @@
                 <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
                   <collectionProp name="Arguments.arguments"/>
                 </elementProp>
-                <stringProp name="HTTPSampler.domain">${DOMAIN}</stringProp>
+                <stringProp name="HTTPSampler.domain"></stringProp>
                 <stringProp name="HTTPSampler.port"></stringProp>
-                <stringProp name="HTTPSampler.protocol">${PROTOCOL}</stringProp>
+                <stringProp name="HTTPSampler.protocol"></stringProp>
                 <stringProp name="HTTPSampler.contentEncoding"></stringProp>
                 <stringProp name="HTTPSampler.path">/blog/api/posts/${POST_ID_g1}</stringProp>
                 <stringProp name="HTTPSampler.method">GET</stringProp>
@@ -1377,9 +1377,9 @@
                     </elementProp>
                   </collectionProp>
                 </elementProp>
-                <stringProp name="HTTPSampler.domain">${DOMAIN}</stringProp>
+                <stringProp name="HTTPSampler.domain"></stringProp>
                 <stringProp name="HTTPSampler.port"></stringProp>
-                <stringProp name="HTTPSampler.protocol">${PROTOCOL}</stringProp>
+                <stringProp name="HTTPSampler.protocol"></stringProp>
                 <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
                 <stringProp name="HTTPSampler.path">/blog/api/posts/update/foo</stringProp>
                 <stringProp name="HTTPSampler.method">PUT</stringProp>
