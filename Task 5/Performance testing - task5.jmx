@@ -28,7 +28,7 @@
         <collectionProp name="Arguments.arguments">
           <elementProp name="DOMAIN" elementType="Argument">
             <stringProp name="Argument.name">DOMAIN</stringProp>
-            <stringProp name="Argument.value">192.168.2.178</stringProp>
+            <stringProp name="Argument.value">192.168.148.140</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="PROTOCOL" elementType="Argument">
@@ -693,7 +693,7 @@
                 <collectionProp name="Arguments.arguments">
                   <elementProp name="" elementType="HTTPArgument">
                     <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                    <stringProp name="Argument.value">{&quot;IsChecked&quot;:false,&quot;Id&quot;:&quot;${POST_ID_g1}&quot;,&quot;Title&quot;:&quot;${POST_TITLE}&quot;,&quot;Author&quot;:&quot;${USERNAME}&quot;,&quot;Description&quot;:&quot;${INITIAL_CONTENT}&quot;,&quot;Content&quot;:&quot;&lt;p&gt;${INITIAL_CONTENT}${__RandomString(${__Random(5,10,)},abcdefghijklmnopqrstuvwxyz,)}&lt;/p&gt;&quot;,&quot;DateCreated&quot;:&quot;${DATE_CREATED}&quot;,&quot;Slug&quot;:&quot;${SLUG}&quot;,&quot;RelativeLink&quot;:&quot;/blog/post/${SLUG}&quot;,&quot;Categories&quot;:[],&quot;Tags&quot;:[],&quot;Comments&quot;:[&quot;0&quot;,&quot;0&quot;,&quot;45&quot;],&quot;HasCommentsEnabled&quot;:true,&quot;IsPublished&quot;:true,&quot;IsDeleted&quot;:false,&quot;CanUserDelete&quot;:true,&quot;CanUserEdit&quot;:true}</stringProp>
+                    <stringProp name="Argument.value">{&quot;IsChecked&quot;:false,&quot;Id&quot;:&quot;${SELECTED_POST_g2}&quot;,&quot;Title&quot;:&quot;${POST_TITLE}&quot;,&quot;Author&quot;:&quot;${USERNAME}&quot;,&quot;Description&quot;:&quot;${INITIAL_CONTENT}&quot;,&quot;Content&quot;:&quot;&lt;p&gt;${INITIAL_CONTENT}${__RandomString(${__Random(5,10,)},abcdefghijklmnopqrstuvwxyz,)}&lt;/p&gt;&quot;,&quot;DateCreated&quot;:&quot;${DATE_CREATED}&quot;,&quot;Slug&quot;:&quot;${SLUG}&quot;,&quot;RelativeLink&quot;:&quot;/blog/post/${SLUG}&quot;,&quot;Categories&quot;:[],&quot;Tags&quot;:[],&quot;Comments&quot;:[&quot;0&quot;,&quot;0&quot;,&quot;45&quot;],&quot;HasCommentsEnabled&quot;:true,&quot;IsPublished&quot;:true,&quot;IsDeleted&quot;:false,&quot;CanUserDelete&quot;:true,&quot;CanUserEdit&quot;:true}</stringProp>
                     <stringProp name="Argument.metadata">=</stringProp>
                   </elementProp>
                 </collectionProp>
@@ -1414,7 +1414,7 @@
                   <collectionProp name="Arguments.arguments">
                     <elementProp name="" elementType="HTTPArgument">
                       <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                      <stringProp name="Argument.value">{&quot;IsChecked&quot;:false,&quot;Id&quot;:&quot;${POST_ID_g1}&quot;,&quot;Title&quot;:&quot;${POST_TITLE}&quot;,&quot;Author&quot;:&quot;${USERNAME}&quot;,&quot;Description&quot;:&quot;${INITIAL_CONTENT}&quot;,&quot;Content&quot;:&quot;&lt;p&gt;${INITIAL_CONTENT}${__RandomString(${__Random(5,10,)},abcdefghijklmnopqrstuvwxyz,)}&lt;/p&gt;&quot;,&quot;DateCreated&quot;:&quot;${DATE_CREATED}&quot;,&quot;Slug&quot;:&quot;${SLUG}&quot;,&quot;RelativeLink&quot;:&quot;/blog/post/${SLUG}&quot;,&quot;Categories&quot;:[],&quot;Tags&quot;:[],&quot;Comments&quot;:[&quot;0&quot;,&quot;0&quot;,&quot;45&quot;],&quot;HasCommentsEnabled&quot;:true,&quot;IsPublished&quot;:true,&quot;IsDeleted&quot;:false,&quot;CanUserDelete&quot;:true,&quot;CanUserEdit&quot;:true}</stringProp>
+                      <stringProp name="Argument.value">{&quot;IsChecked&quot;:false,&quot;Id&quot;:&quot;${SELECTED_POST_g2}&quot;,&quot;Title&quot;:&quot;${POST_TITLE}&quot;,&quot;Author&quot;:&quot;${USERNAME}&quot;,&quot;Description&quot;:&quot;${INITIAL_CONTENT}&quot;,&quot;Content&quot;:&quot;&lt;p&gt;${INITIAL_CONTENT}${__RandomString(${__Random(5,10,)},abcdefghijklmnopqrstuvwxyz,)}&lt;/p&gt;&quot;,&quot;DateCreated&quot;:&quot;${DATE_CREATED}&quot;,&quot;Slug&quot;:&quot;${SLUG}&quot;,&quot;RelativeLink&quot;:&quot;/blog/post/${SLUG}&quot;,&quot;Categories&quot;:[],&quot;Tags&quot;:[],&quot;Comments&quot;:[&quot;0&quot;,&quot;0&quot;,&quot;45&quot;],&quot;HasCommentsEnabled&quot;:true,&quot;IsPublished&quot;:true,&quot;IsDeleted&quot;:false,&quot;CanUserDelete&quot;:true,&quot;CanUserEdit&quot;:true}</stringProp>
                       <stringProp name="Argument.metadata">=</stringProp>
                     </elementProp>
                   </collectionProp>
