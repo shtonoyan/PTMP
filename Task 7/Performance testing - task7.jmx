@@ -28,7 +28,7 @@
         <collectionProp name="Arguments.arguments">
           <elementProp name="DOMAIN" elementType="Argument">
             <stringProp name="Argument.name">DOMAIN</stringProp>
-            <stringProp name="Argument.value">192.168.234.140</stringProp>
+            <stringProp name="Argument.value">192.168.2.178</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="PROTOCOL" elementType="Argument">
@@ -63,7 +63,7 @@
           </elementProp>
           <elementProp name="USERS_ANONIMOUS" elementType="Argument">
             <stringProp name="Argument.name">USERS_ANONIMOUS</stringProp>
-            <stringProp name="Argument.value">${__P(USERS_ANONIMOUS,200)}	</stringProp>
+            <stringProp name="Argument.value">${__P(USERS_ANONIMOUS,200)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="RAMPUP_ADMIN" elementType="Argument">
@@ -655,7 +655,7 @@
         <stringProp name="ThreadGroup.ramp_time">${RAMPUP_ADMIN}</stringProp>
         <boolProp name="ThreadGroup.scheduler">true</boolProp>
         <stringProp name="ThreadGroup.duration">${DURATION}</stringProp>
-        <stringProp name="ThreadGroup.delay"></stringProp>
+        <stringProp name="ThreadGroup.delay">120</stringProp>
         <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
       </ThreadGroup>
       <hashTree>
@@ -1159,7 +1159,7 @@
         <stringProp name="ThreadGroup.ramp_time">${RAMPUP_EDITOR}</stringProp>
         <boolProp name="ThreadGroup.scheduler">true</boolProp>
         <stringProp name="ThreadGroup.duration">${DURATION}</stringProp>
-        <stringProp name="ThreadGroup.delay"></stringProp>
+        <stringProp name="ThreadGroup.delay">120</stringProp>
         <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
       </ThreadGroup>
       <hashTree>
@@ -1905,7 +1905,7 @@
         <stringProp name="ThreadGroup.ramp_time">${RAMPUP_ANONIMOUS}</stringProp>
         <boolProp name="ThreadGroup.scheduler">true</boolProp>
         <stringProp name="ThreadGroup.duration">${DURATION}</stringProp>
-        <stringProp name="ThreadGroup.delay"></stringProp>
+        <stringProp name="ThreadGroup.delay">120</stringProp>
         <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
       </ThreadGroup>
       <hashTree>
