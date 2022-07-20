@@ -76,6 +76,11 @@
             <stringProp name="Argument.value">${__P(RAMPUP_EDITOR,60)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
+          <elementProp name="ROLE" elementType="Argument">
+            <stringProp name="Argument.name">ROLE</stringProp>
+            <stringProp name="Argument.value">Anonymous</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
         </collectionProp>
       </Arguments>
       <hashTree/>
