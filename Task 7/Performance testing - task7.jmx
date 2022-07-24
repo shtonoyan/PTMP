@@ -43,12 +43,12 @@
           </elementProp>
           <elementProp name="RAMPUP_ANONIMOUS" elementType="Argument">
             <stringProp name="Argument.name">RAMPUP_ANONIMOUS</stringProp>
-            <stringProp name="Argument.value">${__P(RAMPUP_ANONIMOUS,1200)}</stringProp>
+            <stringProp name="Argument.value">${__P(RAMPUP_ANONIMOUS,180)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="DURATION" elementType="Argument">
             <stringProp name="Argument.name">DURATION</stringProp>
-            <stringProp name="Argument.value">${__P(DURATION,1200)}</stringProp>
+            <stringProp name="Argument.value">${__P(DURATION, 900)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="CYCLES_COUNT" elementType="Argument">
@@ -58,22 +58,22 @@
           </elementProp>
           <elementProp name="USERS_EDITOR" elementType="Argument">
             <stringProp name="Argument.name">USERS_EDITOR</stringProp>
-            <stringProp name="Argument.value">${__P(USERS_EDITOR,10)}</stringProp>
+            <stringProp name="Argument.value">${__P(USERS_EDITOR,4)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="USERS_ANONIMOUS" elementType="Argument">
             <stringProp name="Argument.name">USERS_ANONIMOUS</stringProp>
-            <stringProp name="Argument.value">${__P(USERS_ANONIMOUS,200)}</stringProp>
+            <stringProp name="Argument.value">${__P(USERS_ANONIMOUS,34)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="RAMPUP_ADMIN" elementType="Argument">
             <stringProp name="Argument.name">RAMPUP_ADMIN</stringProp>
-            <stringProp name="Argument.value">${__P(RAMPUP_ADMIN,600)}</stringProp>
+            <stringProp name="Argument.value">${__P(RAMPUP_ADMIN,180)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="RAMPUP_EDITOR" elementType="Argument">
             <stringProp name="Argument.name">RAMPUP_EDITOR</stringProp>
-            <stringProp name="Argument.value">${__P(RAMPUP_EDITOR,60)}</stringProp>
+            <stringProp name="Argument.value">${__P(RAMPUP_EDITOR,180)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="ROLE" elementType="Argument">
@@ -660,7 +660,7 @@
         <stringProp name="ThreadGroup.ramp_time">${RAMPUP_ADMIN}</stringProp>
         <boolProp name="ThreadGroup.scheduler">true</boolProp>
         <stringProp name="ThreadGroup.duration">${DURATION}</stringProp>
-        <stringProp name="ThreadGroup.delay">120</stringProp>
+        <stringProp name="ThreadGroup.delay">60</stringProp>
         <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
       </ThreadGroup>
       <hashTree>
@@ -1164,7 +1164,7 @@
         <stringProp name="ThreadGroup.ramp_time">${RAMPUP_EDITOR}</stringProp>
         <boolProp name="ThreadGroup.scheduler">true</boolProp>
         <stringProp name="ThreadGroup.duration">${DURATION}</stringProp>
-        <stringProp name="ThreadGroup.delay">120</stringProp>
+        <stringProp name="ThreadGroup.delay">60</stringProp>
         <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
       </ThreadGroup>
       <hashTree>
@@ -1910,7 +1910,7 @@
         <stringProp name="ThreadGroup.ramp_time">${RAMPUP_ANONIMOUS}</stringProp>
         <boolProp name="ThreadGroup.scheduler">true</boolProp>
         <stringProp name="ThreadGroup.duration">${DURATION}</stringProp>
-        <stringProp name="ThreadGroup.delay">120</stringProp>
+        <stringProp name="ThreadGroup.delay">60</stringProp>
         <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
       </ThreadGroup>
       <hashTree>
