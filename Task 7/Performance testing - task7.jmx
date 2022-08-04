@@ -238,6 +238,12 @@
             </HtmlExtractor>
             <hashTree/>
           </hashTree>
+          <DebugSampler guiclass="TestBeanGUI" testclass="DebugSampler" testname="Debug Sampler" enabled="true">
+            <boolProp name="displayJMeterProperties">false</boolProp>
+            <boolProp name="displayJMeterVariables">true</boolProp>
+            <boolProp name="displaySystemProperties">false</boolProp>
+          </DebugSampler>
+          <hashTree/>
         </hashTree>
         <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="Open Predefined Date" enabled="true">
           <boolProp name="TransactionController.includeTimers">false</boolProp>
@@ -2033,6 +2039,12 @@
             </HtmlExtractor>
             <hashTree/>
           </hashTree>
+          <DebugSampler guiclass="TestBeanGUI" testclass="DebugSampler" testname="Debug Sampler" enabled="true">
+            <boolProp name="displayJMeterProperties">false</boolProp>
+            <boolProp name="displayJMeterVariables">true</boolProp>
+            <boolProp name="displaySystemProperties">false</boolProp>
+          </DebugSampler>
+          <hashTree/>
         </hashTree>
         <LoopController guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">true</boolProp>
@@ -2206,7 +2218,7 @@
                 </HTTPSamplerProxy>
                 <hashTree>
                   <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
-                    <stringProp name="filename">C:/Users/Shushanik_Tonoyan/OneDrive - EPAM/Performace Testing MP/Performance-Testing-MP/Task 6/predefined_dates.csv</stringProp>
+                    <stringProp name="filename">predefined_dates.csv</stringProp>
                     <stringProp name="fileEncoding"></stringProp>
                     <stringProp name="variableNames">DATE</stringProp>
                     <boolProp name="ignoreFirstLine">false</boolProp>
