@@ -48,7 +48,7 @@
           </elementProp>
           <elementProp name="DURATION" elementType="Argument">
             <stringProp name="Argument.name">DURATION</stringProp>
-            <stringProp name="Argument.value">${__P(DURATION, 900)}</stringProp>
+            <stringProp name="Argument.value">${__P(DURATION, 34200)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="CYCLES_COUNT" elementType="Argument">
@@ -58,12 +58,12 @@
           </elementProp>
           <elementProp name="USERS_EDITOR" elementType="Argument">
             <stringProp name="Argument.name">USERS_EDITOR</stringProp>
-            <stringProp name="Argument.value">${__P(USERS_EDITOR,4)}</stringProp>
+            <stringProp name="Argument.value">${__P(USERS_EDITOR,2)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="USERS_ANONIMOUS" elementType="Argument">
             <stringProp name="Argument.name">USERS_ANONIMOUS</stringProp>
-            <stringProp name="Argument.value">${__P(USERS_ANONIMOUS,34)}</stringProp>
+            <stringProp name="Argument.value">${__P(USERS_ANONIMOUS,26)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="RAMPUP_ADMIN" elementType="Argument">
